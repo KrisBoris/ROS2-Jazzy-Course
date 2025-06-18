@@ -1,0 +1,16 @@
+[31mCMake Error at CMakeLists.txt:31 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target "smartphone".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1
