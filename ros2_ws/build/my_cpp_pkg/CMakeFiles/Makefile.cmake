@@ -721,4 +721,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cpp_node.dir/DependInfo.cmake"
   "CMakeFiles/robot_news_station.dir/DependInfo.cmake"
   "CMakeFiles/smartphone.dir/DependInfo.cmake"
+  "CMakeFiles/number_publisher.dir/DependInfo.cmake"
+  "CMakeFiles/number_counter.dir/DependInfo.cmake"
+  "CMakeFiles/add_two_ints_server.dir/DependInfo.cmake"
   )

@@ -1,0 +1,24 @@
+[2.499s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[3.507s] running develop
+[4.167s] running egg_info
+[4.230s] writing my_py_pkg.egg-info/PKG-INFO
+[4.231s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[4.232s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[4.232s] writing requirements to my_py_pkg.egg-info/requires.txt
+[4.232s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[4.361s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[4.365s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[4.432s] running build_ext
+[4.432s] Creating /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[4.433s] Installing add_two_ints script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.433s] Installing add_two_ints_client script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.434s] Installing add_two_ints_client_no_oop script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.434s] Installing number_counter script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.434s] Installing number_publisher script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.435s] Installing py_node script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.435s] Installing robot_news_station script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.438s] Installing smartphone script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.438s] 
+[4.439s] Installed /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg
+[4.439s] running symlink_data
+[4.536s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

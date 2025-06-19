@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000864] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000992] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.050860] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.066321] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.067663] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2658-0-kros_TIME531263', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2401', 'SYSTEMD_EXEC_PID': '2658', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3523', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:14203', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2629,unix/kros:/tmp/.ICE-unix/2629', 'INVOCATION_ID': '9fb1761b3a094465b7aa8d90c7acccd7', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3N2E82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cb5e5ecd-9a6e-4abc-a82d-df51c4f9c3dc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.100416] (-) TimerEvent: {}
+[0.202363] (-) TimerEvent: {}
+[0.305371] (-) TimerEvent: {}
+[0.406405] (-) TimerEvent: {}
+[0.513057] (-) TimerEvent: {}
+[0.613646] (-) TimerEvent: {}
+[0.619540] (my_cpp_pkg) StdoutLine: {'line': b'[ 20%] Built target robot_news_station\n'}
+[0.665657] (my_cpp_pkg) StdoutLine: {'line': b'[ 40%] Built target cpp_node\n'}
+[0.692410] (my_cpp_pkg) StdoutLine: {'line': b'[ 60%] Built target number_publisher\n'}
+[0.705782] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] Built target smartphone\n'}
+[0.716500] (-) TimerEvent: {}
+[0.817429] (-) TimerEvent: {}
+[0.867608] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.920349] (-) TimerEvent: {}
+[1.020864] (-) TimerEvent: {}
+[1.127361] (-) TimerEvent: {}
+[1.230058] (-) TimerEvent: {}
+[1.335431] (-) TimerEvent: {}
+[1.438683] (-) TimerEvent: {}
+[1.546368] (-) TimerEvent: {}
+[1.647161] (-) TimerEvent: {}
+[1.749647] (-) TimerEvent: {}
+[1.850417] (-) TimerEvent: {}
+[1.956637] (-) TimerEvent: {}
+[2.059875] (-) TimerEvent: {}
+[2.163892] (-) TimerEvent: {}
+[2.264632] (-) TimerEvent: {}
+[2.365680] (-) TimerEvent: {}
+[2.466442] (-) TimerEvent: {}
+[2.568107] (-) TimerEvent: {}
+[2.669896] (-) TimerEvent: {}
+[2.771062] (-) TimerEvent: {}
+[2.874880] (-) TimerEvent: {}
+[2.978309] (-) TimerEvent: {}
+[3.078813] (-) TimerEvent: {}
+[3.179491] (-) TimerEvent: {}
+[3.281330] (-) TimerEvent: {}
+[3.383468] (-) TimerEvent: {}
+[3.484505] (-) TimerEvent: {}
+[3.585492] (-) TimerEvent: {}
+[3.686808] (-) TimerEvent: {}
+[3.787888] (-) TimerEvent: {}
+[3.889675] (-) TimerEvent: {}
+[3.990692] (-) TimerEvent: {}
+[4.092047] (-) TimerEvent: {}
+[4.192812] (-) TimerEvent: {}
+[4.294291] (-) TimerEvent: {}
+[4.395155] (-) TimerEvent: {}
+[4.496538] (-) TimerEvent: {}
+[4.597437] (-) TimerEvent: {}
+[4.698664] (-) TimerEvent: {}
+[4.800292] (-) TimerEvent: {}
+[4.901303] (-) TimerEvent: {}
+[5.002740] (-) TimerEvent: {}
+[5.103188] (-) TimerEvent: {}
+[5.204410] (-) TimerEvent: {}
+[5.305319] (-) TimerEvent: {}
+[5.408208] (-) TimerEvent: {}
+[5.508824] (-) TimerEvent: {}
+[5.609187] (-) TimerEvent: {}
+[5.710587] (-) TimerEvent: {}
+[5.811462] (-) TimerEvent: {}
+[5.912245] (-) TimerEvent: {}
+[6.013018] (-) TimerEvent: {}
+[6.113627] (-) TimerEvent: {}
+[6.214373] (-) TimerEvent: {}
+[6.314854] (-) TimerEvent: {}
+[6.415384] (-) TimerEvent: {}
+[6.516465] (-) TimerEvent: {}
+[6.617327] (-) TimerEvent: {}
+[6.718279] (-) TimerEvent: {}
+[6.818812] (-) TimerEvent: {}
+[6.919635] (-) TimerEvent: {}
+[7.020304] (-) TimerEvent: {}
+[7.120843] (-) TimerEvent: {}
+[7.221263] (-) TimerEvent: {}
+[7.322006] (-) TimerEvent: {}
+[7.422500] (-) TimerEvent: {}
+[7.524009] (-) TimerEvent: {}
+[7.624335] (-) TimerEvent: {}
+[7.724660] (-) TimerEvent: {}
+[7.825316] (-) TimerEvent: {}
+[7.925685] (-) TimerEvent: {}
+[8.026937] (-) TimerEvent: {}
+[8.127312] (-) TimerEvent: {}
+[8.227943] (-) TimerEvent: {}
+[8.328359] (-) TimerEvent: {}
+[8.429206] (-) TimerEvent: {}
+[8.529955] (-) TimerEvent: {}
+[8.630629] (-) TimerEvent: {}
+[8.731098] (-) TimerEvent: {}
+[8.831800] (-) TimerEvent: {}
+[8.932346] (-) TimerEvent: {}
+[9.033082] (-) TimerEvent: {}
+[9.133875] (-) TimerEvent: {}
+[9.235387] (-) TimerEvent: {}
+[9.336085] (-) TimerEvent: {}
+[9.438037] (-) TimerEvent: {}
+[9.538834] (-) TimerEvent: {}
+[9.639518] (-) TimerEvent: {}
+[9.740004] (-) TimerEvent: {}
+[9.840749] (-) TimerEvent: {}
+[9.941336] (-) TimerEvent: {}
+[10.042162] (-) TimerEvent: {}
+[10.142843] (-) TimerEvent: {}
+[10.243443] (-) TimerEvent: {}
+[10.344341] (-) TimerEvent: {}
+[10.444835] (-) TimerEvent: {}
+[10.545335] (-) TimerEvent: {}
+[10.646368] (-) TimerEvent: {}
+[10.746949] (-) TimerEvent: {}
+[10.847767] (-) TimerEvent: {}
+[10.948271] (-) TimerEvent: {}
+[11.048894] (-) TimerEvent: {}
+[11.149352] (-) TimerEvent: {}
+[11.249794] (-) TimerEvent: {}
+[11.350331] (-) TimerEvent: {}
+[11.450692] (-) TimerEvent: {}
+[11.551721] (-) TimerEvent: {}
+[11.652628] (-) TimerEvent: {}
+[11.753043] (-) TimerEvent: {}
+[11.853547] (-) TimerEvent: {}
+[11.955256] (-) TimerEvent: {}
+[12.055888] (-) TimerEvent: {}
+[12.156610] (-) TimerEvent: {}
+[12.257023] (-) TimerEvent: {}
+[12.357516] (-) TimerEvent: {}
+[12.458031] (-) TimerEvent: {}
+[12.558982] (-) TimerEvent: {}
+[12.659351] (-) TimerEvent: {}
+[12.759692] (-) TimerEvent: {}
+[12.860291] (-) TimerEvent: {}
+[12.961145] (-) TimerEvent: {}
+[13.061429] (-) TimerEvent: {}
+[13.161922] (-) TimerEvent: {}
+[13.262342] (-) TimerEvent: {}
+[13.362832] (-) TimerEvent: {}
+[13.463327] (-) TimerEvent: {}
+[13.564923] (-) TimerEvent: {}
+[13.665356] (-) TimerEvent: {}
+[13.766388] (-) TimerEvent: {}
+[13.867290] (-) TimerEvent: {}
+[13.968343] (-) TimerEvent: {}
+[14.068826] (-) TimerEvent: {}
+[14.169397] (-) TimerEvent: {}
+[14.269949] (-) TimerEvent: {}
+[14.370355] (-) TimerEvent: {}
+[14.470921] (-) TimerEvent: {}
+[14.571939] (-) TimerEvent: {}
+[14.672647] (-) TimerEvent: {}
+[14.773070] (-) TimerEvent: {}
+[14.873857] (-) TimerEvent: {}
+[14.975395] (-) TimerEvent: {}
+[15.075981] (-) TimerEvent: {}
+[15.177384] (-) TimerEvent: {}
+[15.278045] (-) TimerEvent: {}
+[15.381042] (-) TimerEvent: {}
+[15.482161] (-) TimerEvent: {}
+[15.582697] (-) TimerEvent: {}
+[15.683192] (-) TimerEvent: {}
+[15.784431] (-) TimerEvent: {}
+[15.885326] (-) TimerEvent: {}
+[15.986294] (-) TimerEvent: {}
+[16.086880] (-) TimerEvent: {}
+[16.187687] (-) TimerEvent: {}
+[16.289148] (-) TimerEvent: {}
+[16.389905] (-) TimerEvent: {}
+[16.490855] (-) TimerEvent: {}
+[16.591876] (-) TimerEvent: {}
+[16.692641] (-) TimerEvent: {}
+[16.793793] (-) TimerEvent: {}
+[16.894303] (-) TimerEvent: {}
+[16.995031] (-) TimerEvent: {}
+[17.095535] (-) TimerEvent: {}
+[17.196258] (-) TimerEvent: {}
+[17.296712] (-) TimerEvent: {}
+[17.397517] (-) TimerEvent: {}
+[17.498532] (-) TimerEvent: {}
+[17.599462] (-) TimerEvent: {}
+[17.700243] (-) TimerEvent: {}
+[17.801369] (-) TimerEvent: {}
+[17.902288] (-) TimerEvent: {}
+[18.002928] (-) TimerEvent: {}
+[18.103381] (-) TimerEvent: {}
+[18.203769] (-) TimerEvent: {}
+[18.304495] (-) TimerEvent: {}
+[18.405014] (-) TimerEvent: {}
+[18.505516] (-) TimerEvent: {}
+[18.606499] (-) TimerEvent: {}
+[18.706831] (-) TimerEvent: {}
+[18.807217] (-) TimerEvent: {}
+[18.907772] (-) TimerEvent: {}
+[19.008369] (-) TimerEvent: {}
+[19.109215] (-) TimerEvent: {}
+[19.209904] (-) TimerEvent: {}
+[19.310393] (-) TimerEvent: {}
+[19.412317] (-) TimerEvent: {}
+[19.513339] (-) TimerEvent: {}
+[19.613803] (-) TimerEvent: {}
+[19.714669] (-) TimerEvent: {}
+[19.815238] (-) TimerEvent: {}
+[19.915849] (-) TimerEvent: {}
+[20.016407] (-) TimerEvent: {}
+[20.117356] (-) TimerEvent: {}
+[20.217750] (-) TimerEvent: {}
+[20.318301] (-) TimerEvent: {}
+[20.418625] (-) TimerEvent: {}
+[20.518945] (-) TimerEvent: {}
+[20.619267] (-) TimerEvent: {}
+[20.719643] (-) TimerEvent: {}
+[20.820055] (-) TimerEvent: {}
+[20.920455] (-) TimerEvent: {}
+[21.021553] (-) TimerEvent: {}
+[21.122312] (-) TimerEvent: {}
+[21.223268] (-) TimerEvent: {}
+[21.323653] (-) TimerEvent: {}
+[21.424313] (-) TimerEvent: {}
+[21.525193] (-) TimerEvent: {}
+[21.625912] (-) TimerEvent: {}
+[21.726339] (-) TimerEvent: {}
+[21.826936] (-) TimerEvent: {}
+[21.927334] (-) TimerEvent: {}
+[22.028087] (-) TimerEvent: {}
+[22.128623] (-) TimerEvent: {}
+[22.229263] (-) TimerEvent: {}
+[22.329732] (-) TimerEvent: {}
+[22.430809] (-) TimerEvent: {}
+[22.531212] (-) TimerEvent: {}
+[22.632263] (-) TimerEvent: {}
+[22.732632] (-) TimerEvent: {}
+[22.833097] (-) TimerEvent: {}
+[22.933628] (-) TimerEvent: {}
+[23.034028] (-) TimerEvent: {}
+[23.134582] (-) TimerEvent: {}
+[23.234905] (-) TimerEvent: {}
+[23.335346] (-) TimerEvent: {}
+[23.435688] (-) TimerEvent: {}
+[23.537576] (-) TimerEvent: {}
+[23.639383] (-) TimerEvent: {}
+[23.739894] (-) TimerEvent: {}
+[23.840356] (-) TimerEvent: {}
+[23.941028] (-) TimerEvent: {}
+[24.041332] (-) TimerEvent: {}
+[24.141990] (-) TimerEvent: {}
+[24.242328] (-) TimerEvent: {}
+[24.342880] (-) TimerEvent: {}
+[24.443290] (-) TimerEvent: {}
+[24.544326] (-) TimerEvent: {}
+[24.644725] (-) TimerEvent: {}
+[24.745067] (-) TimerEvent: {}
+[24.845558] (-) TimerEvent: {}
+[24.946550] (-) TimerEvent: {}
+[25.046956] (-) TimerEvent: {}
+[25.147325] (-) TimerEvent: {}
+[25.247716] (-) TimerEvent: {}
+[25.348101] (-) TimerEvent: {}
+[25.448622] (-) TimerEvent: {}
+[25.548989] (-) TimerEvent: {}
+[25.551134] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[25.661893] (-) TimerEvent: {}
+[25.763608] (-) TimerEvent: {}
+[25.866417] (-) TimerEvent: {}
+[25.968498] (-) TimerEvent: {}
+[26.077006] (-) TimerEvent: {}
+[26.178357] (-) TimerEvent: {}
+[26.278890] (-) TimerEvent: {}
+[26.379310] (-) TimerEvent: {}
+[26.479772] (-) TimerEvent: {}
+[26.580195] (-) TimerEvent: {}
+[26.681119] (-) TimerEvent: {}
+[26.782206] (-) TimerEvent: {}
+[26.882795] (-) TimerEvent: {}
+[26.983335] (-) TimerEvent: {}
+[27.044035] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[27.083649] (-) TimerEvent: {}
+[27.102502] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[27.103546] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[27.123576] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2658-0-kros_TIME531263', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2401', 'SYSTEMD_EXEC_PID': '2658', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3523', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:14203', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2629,unix/kros:/tmp/.ICE-unix/2629', 'INVOCATION_ID': '9fb1761b3a094465b7aa8d90c7acccd7', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3N2E82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cb5e5ecd-9a6e-4abc-a82d-df51c4f9c3dc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[27.143848] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.149184] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[27.153765] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[27.155543] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[27.156486] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[27.159462] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""\n'}
+[27.159776] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[27.168692] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""\n'}
+[27.169303] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[27.169640] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[27.170170] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[27.170473] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[27.170684] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[27.171113] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[27.171465] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[27.171680] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[27.171992] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[27.172283] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[27.172586] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[27.173014] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[27.173134] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[27.173290] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[27.173525] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[27.175945] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[27.185660] (-) TimerEvent: {}
+[27.221783] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[27.223218] (-) EventReactorShutdown: {}
