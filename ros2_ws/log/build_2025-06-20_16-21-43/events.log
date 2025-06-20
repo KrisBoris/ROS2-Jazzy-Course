@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.002544] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.003081] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.003308] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.040187] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.040504] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.040571] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2588-0-kros_TIME72495', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2345', 'SYSTEMD_EXEC_PID': '2588', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3341', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:16610', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2560,unix/kros:/tmp/.ICE-unix/2560', 'INVOCATION_ID': 'de7346032e104991ae0736ae7222c2f1', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DM4H82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5983c301-b06a-468d-9e14-977cfa386eb7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.098581] (-) TimerEvent: {}
+[0.201767] (-) TimerEvent: {}
+[0.302418] (-) TimerEvent: {}
+[0.336455] (my_cpp_pkg) StdoutLine: {'line': b'[ 11%] Built target number_publisher\n'}
+[0.392313] (my_cpp_pkg) StdoutLine: {'line': b'[ 22%] Built target cpp_node\n'}
+[0.392892] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target smartphone\n'}
+[0.402577] (-) TimerEvent: {}
+[0.414282] (my_cpp_pkg) StdoutLine: {'line': b'[ 44%] Built target robot_news_station\n'}
+[0.502839] (-) TimerEvent: {}
+[0.581307] (my_cpp_pkg) StdoutLine: {'line': b'[ 55%] Built target add_two_ints_client\n'}
+[0.596139] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target number_counter\n'}
+[0.603096] (-) TimerEvent: {}
+[0.622310] (my_cpp_pkg) StdoutLine: {'line': b'[ 77%] Built target add_two_ints_client_no_oop\n'}
+[0.622683] (my_cpp_pkg) StdoutLine: {'line': b'[ 88%] Built target add_two_ints_server\n'}
+[0.704466] (-) TimerEvent: {}
+[0.711541] (my_cpp_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/reset_counter.dir/src/reset_counter.cpp.o\x1b[0m\n'}
+[0.805016] (-) TimerEvent: {}
+[0.906679] (-) TimerEvent: {}
+[1.007043] (-) TimerEvent: {}
+[1.108006] (-) TimerEvent: {}
+[1.209271] (-) TimerEvent: {}
+[1.313669] (-) TimerEvent: {}
+[1.417151] (-) TimerEvent: {}
+[1.519554] (-) TimerEvent: {}
+[1.620550] (-) TimerEvent: {}
+[1.721716] (-) TimerEvent: {}
+[1.824269] (-) TimerEvent: {}
+[1.926239] (-) TimerEvent: {}
+[2.027506] (-) TimerEvent: {}
+[2.131292] (-) TimerEvent: {}
+[2.231987] (-) TimerEvent: {}
+[2.333002] (-) TimerEvent: {}
+[2.433467] (-) TimerEvent: {}
+[2.534167] (-) TimerEvent: {}
+[2.635296] (-) TimerEvent: {}
+[2.736009] (-) TimerEvent: {}
+[2.838022] (-) TimerEvent: {}
+[2.938427] (-) TimerEvent: {}
+[3.039024] (-) TimerEvent: {}
+[3.142052] (-) TimerEvent: {}
+[3.242699] (-) TimerEvent: {}
+[3.343257] (-) TimerEvent: {}
+[3.444338] (-) TimerEvent: {}
+[3.547805] (-) TimerEvent: {}
+[3.649275] (-) TimerEvent: {}
+[3.750940] (-) TimerEvent: {}
+[3.851428] (-) TimerEvent: {}
+[3.952308] (-) TimerEvent: {}
+[4.055969] (-) TimerEvent: {}
+[4.156599] (-) TimerEvent: {}
+[4.257835] (-) TimerEvent: {}
+[4.358390] (-) TimerEvent: {}
+[4.459750] (-) TimerEvent: {}
+[4.562299] (-) TimerEvent: {}
+[4.666759] (-) TimerEvent: {}
+[4.770294] (-) TimerEvent: {}
+[4.872147] (-) TimerEvent: {}
+[4.977304] (-) TimerEvent: {}
+[5.077802] (-) TimerEvent: {}
+[5.178724] (-) TimerEvent: {}
+[5.279162] (-) TimerEvent: {}
+[5.380668] (-) TimerEvent: {}
+[5.481857] (-) TimerEvent: {}
+[5.582891] (-) TimerEvent: {}
+[5.684237] (-) TimerEvent: {}
+[5.785740] (-) TimerEvent: {}
+[5.886371] (-) TimerEvent: {}
+[5.987163] (-) TimerEvent: {}
+[6.088601] (-) TimerEvent: {}
+[6.189842] (-) TimerEvent: {}
+[6.292186] (-) TimerEvent: {}
+[6.392712] (-) TimerEvent: {}
+[6.493328] (-) TimerEvent: {}
+[6.594030] (-) TimerEvent: {}
+[6.695239] (-) TimerEvent: {}
+[6.796753] (-) TimerEvent: {}
+[6.898239] (-) TimerEvent: {}
+[6.999818] (-) TimerEvent: {}
+[7.100166] (-) TimerEvent: {}
+[7.203809] (-) TimerEvent: {}
+[7.304250] (-) TimerEvent: {}
+[7.405068] (-) TimerEvent: {}
+[7.505517] (-) TimerEvent: {}
+[7.606104] (-) TimerEvent: {}
+[7.707548] (-) TimerEvent: {}
+[7.808240] (-) TimerEvent: {}
+[7.909487] (-) TimerEvent: {}
+[8.010199] (-) TimerEvent: {}
+[8.117506] (-) TimerEvent: {}
+[8.218224] (-) TimerEvent: {}
+[8.243049] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.244096] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[8.244389] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[8.244633] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:1\x1b[m\x1b[K:\n'}
+[8.244828] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ResetCounterNode::\x1b[01;32m\x1b[KcallbackTimer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.245029] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:27:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.245422] (my_cpp_pkg) StderrLine: {'line': b'   27 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%s"\x1b[m\x1b[K, waitingForServiceCalls_[waitingForServiceCounter_]);\n'}
+[8.245628] (my_cpp_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.245818] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:27:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.246009] (my_cpp_pkg) StderrLine: {'line': b'   27 |             RCLCPP_INFO(this->get_logger(), "\x1b[01;36m\x1b[K%s\x1b[m\x1b[K", waitingForServiceCalls_[waitingForServiceCounter_]);\n'}
+[8.246254] (my_cpp_pkg) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.246509] (my_cpp_pkg) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.246706] (my_cpp_pkg) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[8.249490] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19\x1b[m\x1b[K,\n'}
+[8.249716] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K:\n'}
+[8.249909] (my_cpp_pkg) StderrLine: {'line': b'/usr/include/c++/13/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (ResetCounterNode::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >), ResetCounterNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.250170] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/functional:859:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (ResetCounterNode::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >), ResetCounterNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.250440] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/functional:881:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::\x1b[01;32m\x1b[Kbind\x1b[m\x1b[K(_Func&&, _BoundArgs&& ...) \x1b[35m\x1b[K[with _Func = void (ResetCounterNode::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >); _BoundArgs = {ResetCounterNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.250670] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:38:55:\x1b[m\x1b[K   required from here\n'}
+[8.250869] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/functional:847:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[8.251073] (my_cpp_pkg) StderrLine: {'line': b'  846 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[8.251351] (my_cpp_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[8.251569] (my_cpp_pkg) StderrLine: {'line': b'  847 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[8.251769] (my_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.252043] (my_cpp_pkg) StderrLine: {'line': b'  848 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[8.252322] (my_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.252541] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/functional:847:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (3 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (3 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[8.274600] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ResetCounterNode::\x1b[01;32m\x1b[KcallbackService\x1b[m\x1b[K(rclcpp::Client<example_interfaces::srv::SetBool>::SharedFuture)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.274895] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:45:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::SetBool_Response_<std::allocator<void> >::_message_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.275149] (my_cpp_pkg) StderrLine: {'line': b'   45 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%s"\x1b[m\x1b[K, response->message);\n'}
+[8.275451] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.275676] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:45:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.275883] (my_cpp_pkg) StderrLine: {'line': b'   45 |         RCLCPP_INFO(this->get_logger(), "\x1b[01;36m\x1b[K%s\x1b[m\x1b[K", response->message);\n'}
+[8.276108] (my_cpp_pkg) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.276394] (my_cpp_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.276586] (my_cpp_pkg) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[8.319523] (-) TimerEvent: {}
+[8.421150] (-) TimerEvent: {}
+[8.522579] (-) TimerEvent: {}
+[8.578444] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.578777] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.579018] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.579289] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.579493] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[8.579686] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[8.579878] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.580118] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.580385] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[8.580579] (my_cpp_pkg) StderrLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest, CallbackT&&) \x1b[35m\x1b[K[with CallbackT = std::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::SetBool; SharedRequest = std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.580806] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:38:36:\x1b[m\x1b[K   required from here\n'}
+[8.581043] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:678:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>::function(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.582115] (my_cpp_pkg) StderrLine: {'line': b'  678 |       \x1b[01;31m\x1b[Kstd::make_tuple(\x1b[m\x1b[K\n'}
+[8.582458] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[8.582649] (my_cpp_pkg) StderrLine: {'line': b'  679 | \x1b[01;31m\x1b[K        CallbackType{std::forward<CallbackT>(cb)},\x1b[m\x1b[K\n'}
+[8.582838] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.583068] (my_cpp_pkg) StderrLine: {'line': b'  680 | \x1b[01;31m\x1b[K        shared_future,\x1b[m\x1b[K\n'}
+[8.583329] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.583545] (my_cpp_pkg) StderrLine: {'line': b'  681 | \x1b[01;31m\x1b[K        std::move(promise))\x1b[m\x1b[K);\n'}
+[8.583739] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.583954] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/functional:59\x1b[m\x1b[K:\n'}
+[8.584149] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:435:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor, class _Constraints> std::function<_Res(_ArgTypes ...)>::\x1b[01;32m\x1b[Kfunction\x1b[m\x1b[K(_Functor&&) \x1b[35m\x1b[K[with _Constraints = _Functor; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.584424] (my_cpp_pkg) StderrLine: {'line': b'  435 |         \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(_Functor&& __f)\n'}
+[8.584614] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.584802] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:435:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.585040] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/move.h:37\x1b[m\x1b[K,\n'}
+[8.585301] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/new_allocator.h:36\x1b[m\x1b[K,\n'}
+[8.585500] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[8.585689] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[8.585924] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:65\x1b[m\x1b[K,\n'}
+[8.586112] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K:\n'}
+[8.586375] (my_cpp_pkg) StderrLine: {'line': b'/usr/include/c++/13/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using std::__enable_if_t = typename std::enable_if::type \x1b[35m\x1b[K[with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.586570] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:353:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using std::function<_Res(_ArgTypes ...)>::_Requires = std::__enable_if_t<_Cond::value, _Tp> \x1b[35m\x1b[K[with _Cond = std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>::_Callable<std::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>, std::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>, std::__invoke_result<std::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>&, std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > > > >; _Tp = void; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.586860] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:434:9:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest, CallbackT&&) \x1b[35m\x1b[K[with CallbackT = std::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::SetBool; SharedRequest = std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.587079] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:38:36:\x1b[m\x1b[K   required from here\n'}
+[8.587269] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/type_traits:116:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.587553] (my_cpp_pkg) StderrLine: {'line': b'  116 |     using \x1b[01;31m\x1b[K__enable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[8.587790] (my_cpp_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.587982] (my_cpp_pkg) StderrLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest, CallbackT&&) \x1b[35m\x1b[K[with CallbackT = std::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::SetBool; SharedRequest = std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.588245] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/reset_counter.cpp:38:36:\x1b[m\x1b[K   required from here\n'}
+[8.588465] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:404:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::\x1b[01;32m\x1b[Kfunction\x1b[m\x1b[K(std::function<_Res(_ArgTypes ...)>&&) \x1b[35m\x1b[K[with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.588661] (my_cpp_pkg) StderrLine: {'line': b'  404 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(function&& __x) noexcept\n'}
+[8.588938] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.589126] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:404:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.589408] (my_cpp_pkg) StderrLine: {'line': b'  404 |       function(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[8.589599] (my_cpp_pkg) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.589830] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:386:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::\x1b[01;32m\x1b[Kfunction\x1b[m\x1b[K(const std::function<_Res(_ArgTypes ...)>&) \x1b[35m\x1b[K[with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.590030] (my_cpp_pkg) StderrLine: {'line': b'  386 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(const function& __x)\n'}
+[8.590278] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.590466] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:386:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.590663] (my_cpp_pkg) StderrLine: {'line': b'  386 |       function(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[8.590966] (my_cpp_pkg) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.591154] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:375:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::\x1b[01;32m\x1b[Kfunction\x1b[m\x1b[K(std::nullptr_t) \x1b[35m\x1b[K[with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.591348] (my_cpp_pkg) StderrLine: {'line': b'  375 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K(nullptr_t) noexcept\n'}
+[8.591535] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.591827] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:375:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (ResetCounterNode::*(ResetCounterNode*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.592048] (my_cpp_pkg) StderrLine: {'line': b'  375 |       function(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[8.592236] (my_cpp_pkg) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.592424] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:368:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::\x1b[01;32m\x1b[Kfunction\x1b[m\x1b[K() \x1b[35m\x1b[K[with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.592627] (my_cpp_pkg) StderrLine: {'line': b'  368 |       \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K() noexcept\n'}
+[8.592911] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.593099] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:368:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[8.593287] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:682:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<example_interfaces::srv::SetBool>::SharedFutureAndRequestId::SharedFutureAndRequestId(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.593480] (my_cpp_pkg) StderrLine: {'line': b'  682 |     return SharedFutureAndRequestId{std::move(shared_future), req_id\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[8.593782] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.594014] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:66:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::FutureAndRequestId<FutureT>::\x1b[01;32m\x1b[KFutureAndRequestId\x1b[m\x1b[K(FutureT, int64_t) \x1b[35m\x1b[K[with FutureT = std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >; int64_t = long int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.594373] (my_cpp_pkg) StderrLine: {'line': b'   66 |   \x1b[01;36m\x1b[KFutureAndRequestId\x1b[m\x1b[K(FutureT impl, int64_t req_id)\n'}
+[8.594562] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.594791] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  inherited here\n'}
+[8.594981] (my_cpp_pkg) StderrLine: {'line': b'  465 | using detail::FutureAndRequestId<std::shared_future<SharedResponse>>::\x1b[01;36m\x1b[KFutureAndRequestId\x1b[m\x1b[K;\n'}
+[8.595218] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.595433] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[8.595676] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 2 would be ill-formed:\n'}
+[8.595867] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:108:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::FutureAndRequestId<FutureT>::\x1b[01;32m\x1b[KFutureAndRequestId\x1b[m\x1b[K(rclcpp::detail::FutureAndRequestId<FutureT>&&) \x1b[35m\x1b[K[with FutureT = std::shared_future<std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.596075] (my_cpp_pkg) StderrLine: {'line': b'  108 |   \x1b[01;36m\x1b[KFutureAndRequestId\x1b[m\x1b[K(FutureAndRequestId && other) noexcept = default;\n'}
+[8.596342] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.596563] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  inherited here\n'}
+[8.596766] (my_cpp_pkg) StderrLine: {'line': b'  465 | using detail::FutureAndRequestId<std::shared_future<SharedResponse>>::\x1b[01;36m\x1b[KFutureAndRequestId\x1b[m\x1b[K;\n'}
+[8.596954] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.597141] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[8.597399] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[8.597633] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:462:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<example_interfaces::srv::SetBool>::SharedFutureAndRequestId::\x1b[01;32m\x1b[KSharedFutureAndRequestId\x1b[m\x1b[K(rclcpp::Client<example_interfaces::srv::SetBool>::SharedFutureAndRequestId&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.597828] (my_cpp_pkg) StderrLine: {'line': b'  462 |   struct \x1b[01;36m\x1b[KSharedFutureAndRequestId\x1b[m\x1b[K\n'}
+[8.598017] (my_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.598281] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:462:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[8.623364] (-) TimerEvent: {}
+[8.724264] (-) TimerEvent: {}
+[8.826718] (-) TimerEvent: {}
+[8.929271] (-) TimerEvent: {}
+[9.030846] (-) TimerEvent: {}
+[9.132214] (-) TimerEvent: {}
+[9.233903] (-) TimerEvent: {}
+[9.334322] (-) TimerEvent: {}
+[9.435315] (-) TimerEvent: {}
+[9.537025] (-) TimerEvent: {}
+[9.637486] (-) TimerEvent: {}
+[9.739154] (-) TimerEvent: {}
+[9.839564] (-) TimerEvent: {}
+[9.941244] (-) TimerEvent: {}
+[10.041780] (-) TimerEvent: {}
+[10.142947] (-) TimerEvent: {}
+[10.244800] (-) TimerEvent: {}
+[10.345472] (-) TimerEvent: {}
+[10.447026] (-) TimerEvent: {}
+[10.467166] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/reset_counter.dir/build.make:76: CMakeFiles/reset_counter.dir/src/reset_counter.cpp.o] Error 1\n'}
+[10.468579] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/reset_counter.dir/all] Error 2\n'}
+[10.468766] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.474433] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[10.498406] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[10.509840] (-) EventReactorShutdown: {}

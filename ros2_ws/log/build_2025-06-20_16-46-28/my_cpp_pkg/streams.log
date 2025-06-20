@@ -1,0 +1,21 @@
+[0.061s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.360s] [ 11%] Built target robot_news_station
+[0.381s] [ 22%] Built target cpp_node
+[0.389s] [ 33%] Built target number_publisher
+[0.389s] [ 44%] Built target smartphone
+[0.548s] [ 55%] Built target add_two_ints_server
+[0.553s] [ 61%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.563s] [ 72%] Built target add_two_ints_client
+[0.567s] [ 83%] Built target add_two_ints_client_no_oop
+[0.678s] [ 94%] Built target reset_counter
+[7.667s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::[01;32m[KNumberCounterNode[m[K()[m[K’:
+[7.667s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:14:111:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[7.667s]    14 |             std::bind(&NumberCounterNode::callbackService, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K;[m[K
+[7.667s]       |                                                                                                               [01;31m[K^[m[K
+[7.668s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:13:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[7.668s]    13 |         service_ = this->create_service<example_interfaces::srv::SetBool>[01;36m[K([m[K"reset_counter",
+[7.668s]       |                                                                          [01;36m[K^[m[K
+[13.227s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[13.227s] gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/number_counter.dir/all] Error 2
+[13.228s] gmake: *** [Makefile:146: all] Error 2
+[13.233s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg -- -j4 -l4

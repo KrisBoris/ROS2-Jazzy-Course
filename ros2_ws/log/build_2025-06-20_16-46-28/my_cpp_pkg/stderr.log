@@ -1,0 +1,10 @@
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::[01;32m[KNumberCounterNode[m[K()[m[K’:
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:14:111:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   14 |             std::bind(&NumberCounterNode::callbackService, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K;[m[K
+      |                                                                                                               [01;31m[K^[m[K
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:13:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   13 |         service_ = this->create_service<example_interfaces::srv::SetBool>[01;36m[K([m[K"reset_counter",
+      |                                                                          [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

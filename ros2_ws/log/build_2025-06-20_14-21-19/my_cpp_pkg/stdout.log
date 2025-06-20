@@ -1,0 +1,9 @@
+[ 16%] Built target cpp_node
+[ 22%] Built target robot_news_station
+[ 38%] Built target number_publisher
+[ 44%] Built target smartphone
+[ 55%] Built target add_two_ints_server
+[ 66%] Built target add_two_ints_client_no_oop
+[ 77%] Built target add_two_ints_client
+[ 83%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/reset_counter.dir/src/reset_counter.cpp.o[0m

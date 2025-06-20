@@ -275,6 +275,93 @@ add_two_ints_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
 .PHONY : add_two_ints_server/fast
 
+#=============================================================================
+# Target rules for targets named add_two_ints_client_no_oop
+
+# Build rule for target.
+add_two_ints_client_no_oop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_two_ints_client_no_oop
+.PHONY : add_two_ints_client_no_oop
+
+# fast build rule for target.
+add_two_ints_client_no_oop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/build
+.PHONY : add_two_ints_client_no_oop/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_client
+
+# Build rule for target.
+add_two_ints_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_two_ints_client
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+#=============================================================================
+# Target rules for targets named reset_counter
+
+# Build rule for target.
+reset_counter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reset_counter
+.PHONY : reset_counter
+
+# fast build rule for target.
+reset_counter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter.dir/build.make CMakeFiles/reset_counter.dir/build
+.PHONY : reset_counter/fast
+
+src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.o
+
+# target to build an object file
+src/add_two_ints_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.cpp.o
+
+src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.i
+
+# target to preprocess a source file
+src/add_two_ints_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.cpp.i
+
+src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.cpp.s
+
+src/add_two_ints_client_no_oop.o: src/add_two_ints_client_no_oop.cpp.o
+.PHONY : src/add_two_ints_client_no_oop.o
+
+# target to build an object file
+src/add_two_ints_client_no_oop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o
+.PHONY : src/add_two_ints_client_no_oop.cpp.o
+
+src/add_two_ints_client_no_oop.i: src/add_two_ints_client_no_oop.cpp.i
+.PHONY : src/add_two_ints_client_no_oop.i
+
+# target to preprocess a source file
+src/add_two_ints_client_no_oop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.i
+.PHONY : src/add_two_ints_client_no_oop.cpp.i
+
+src/add_two_ints_client_no_oop.s: src/add_two_ints_client_no_oop.cpp.s
+.PHONY : src/add_two_ints_client_no_oop.s
+
+# target to generate assembly for a file
+src/add_two_ints_client_no_oop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.s
+.PHONY : src/add_two_ints_client_no_oop.cpp.s
+
 src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
 .PHONY : src/add_two_ints_server.o
 
@@ -371,6 +458,30 @@ src/number_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.s
 .PHONY : src/number_publisher.cpp.s
 
+src/reset_counter.o: src/reset_counter.cpp.o
+.PHONY : src/reset_counter.o
+
+# target to build an object file
+src/reset_counter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter.dir/build.make CMakeFiles/reset_counter.dir/src/reset_counter.cpp.o
+.PHONY : src/reset_counter.cpp.o
+
+src/reset_counter.i: src/reset_counter.cpp.i
+.PHONY : src/reset_counter.i
+
+# target to preprocess a source file
+src/reset_counter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter.dir/build.make CMakeFiles/reset_counter.dir/src/reset_counter.cpp.i
+.PHONY : src/reset_counter.cpp.i
+
+src/reset_counter.s: src/reset_counter.cpp.s
+.PHONY : src/reset_counter.s
+
+# target to generate assembly for a file
+src/reset_counter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter.dir/build.make CMakeFiles/reset_counter.dir/src/reset_counter.cpp.s
+.PHONY : src/reset_counter.cpp.s
+
 src/robot_news_station.o: src/robot_news_station.cpp.o
 .PHONY : src/robot_news_station.o
 
@@ -434,12 +545,21 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... add_two_ints_client"
+	@echo "... add_two_ints_client_no_oop"
 	@echo "... add_two_ints_server"
 	@echo "... cpp_node"
 	@echo "... number_counter"
 	@echo "... number_publisher"
+	@echo "... reset_counter"
 	@echo "... robot_news_station"
 	@echo "... smartphone"
+	@echo "... src/add_two_ints_client.o"
+	@echo "... src/add_two_ints_client.i"
+	@echo "... src/add_two_ints_client.s"
+	@echo "... src/add_two_ints_client_no_oop.o"
+	@echo "... src/add_two_ints_client_no_oop.i"
+	@echo "... src/add_two_ints_client_no_oop.s"
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
@@ -452,6 +572,9 @@ help:
 	@echo "... src/number_publisher.o"
 	@echo "... src/number_publisher.i"
 	@echo "... src/number_publisher.s"
+	@echo "... src/reset_counter.o"
+	@echo "... src/reset_counter.i"
+	@echo "... src/reset_counter.s"
 	@echo "... src/robot_news_station.o"
 	@echo "... src/robot_news_station.i"
 	@echo "... src/robot_news_station.s"

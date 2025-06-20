@@ -1,0 +1,28 @@
+[0.035s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.308s] [ 11%] Built target cpp_node
+[0.334s] [ 22%] Built target smartphone
+[0.364s] [ 33%] Built target number_publisher
+[0.399s] [ 44%] Built target robot_news_station
+[0.519s] [ 55%] Built target add_two_ints_server
+[0.530s] [ 66%] Built target add_two_ints_client_no_oop
+[0.535s] [ 77%] Built target add_two_ints_client
+[0.540s] [ 83%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.603s] [ 94%] Built target reset_counter
+[6.565s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:38:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’
+[6.565s]    38 |     void [01;31m[KcallbackService[m[K(example_interfaces::srv::SetBool::Request::SharedPtr request,
+[6.566s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.566s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’
+[6.566s]    32 |     void [01;36m[KcallbackService[m[K(example_interfaces::srv::SetBool::Request::SharedPtr request,
+[6.566s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.595s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.595s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:32:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.595s]    32 | oid callbackService([01;35m[Kexample_interfaces::srv::SetBool::Request::SharedPtr request[m[K,
+[6.595s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.595s] 
+[6.596s] [01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:33:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.596s]    33 |          [01;35m[Kexample_interfaces::srv::SetBool::Response::SharedPtr response[m[K)
+[6.596s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.060s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[12.061s] gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/number_counter.dir/all] Error 2
+[12.061s] gmake: *** [Makefile:146: all] Error 2
+[12.068s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg -- -j4 -l4

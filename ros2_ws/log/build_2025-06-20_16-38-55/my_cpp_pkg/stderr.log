@@ -1,0 +1,17 @@
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:38:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’
+   38 |     void [01;31m[KcallbackService[m[K(example_interfaces::srv::SetBool::Request::SharedPtr request,
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’
+   32 |     void [01;36m[KcallbackService[m[K(example_interfaces::srv::SetBool::Request::SharedPtr request,
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackService[m[K(example_interfaces::srv::SetBool_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::SetBool_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:32:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 | oid callbackService([01;35m[Kexample_interfaces::srv::SetBool::Request::SharedPtr request[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:33:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   33 |          [01;35m[Kexample_interfaces::srv::SetBool::Response::SharedPtr response[m[K)
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:257: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
