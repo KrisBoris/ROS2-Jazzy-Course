@@ -1,0 +1,76 @@
+[0.022s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces
+[0.259s] -- The C compiler identification is GNU 13.3.0
+[0.555s] -- The CXX compiler identification is GNU 13.3.0
+[0.620s] -- Detecting C compiler ABI info
+[0.870s] -- Detecting C compiler ABI info - done
+[0.919s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.920s] -- Detecting C compile features
+[0.922s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.234s] -- Detecting CXX compiler ABI info - done
+[1.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.284s] -- Detecting CXX compile features
+[1.286s] -- Detecting CXX compile features - done
+[1.302s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.760s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.137s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.306s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.375s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.898s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.911s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.260s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.716s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.780s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.798s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.943s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[4.943s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[4.944s]   my_robot_interfaces --arguments-file
+[4.944s]   /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json
+[4.944s]   --output-dir
+[4.944s]   /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces
+[4.945s]   --output-file
+[4.945s]   /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)
+[4.945s]   returned error code 1:
+[4.945s] 
+[4.946s]   Error processing 'boolean are_motors_ready' of
+[4.946s]   'my_robot_interfaces/HardwareStatus': ''boolean' is an invalid message
+[4.946s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[4.946s] 
+[4.946s]   Traceback (most recent call last):
+[4.947s] 
+[4.947s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[4.947s]     File "<frozen runpy>", line 88, in _run_code
+[4.947s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.948s]       sys.exit(main())
+[4.948s]                ^^^^^^
+[4.948s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.948s]       abs_idl_file = convert_to_idl(
+[4.949s]                      ^^^^^^^^^^^^^^^
+[4.949s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[4.949s]       return convert_msg_to_idl(
+[4.949s]              ^^^^^^^^^^^^^^^^^^^
+[4.950s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[4.950s]       msg = parse_message_string(package_name, input_file.stem, content)
+[4.950s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.950s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[4.950s]       Type(type_string, context_package_name=pkg_name),
+[4.951s]       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.951s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[4.951s]       super(Type, self).__init__(
+[4.951s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[4.952s]       raise InvalidResourceName(
+[4.952s] 
+[4.952s]   rosidl_adapter.parser.InvalidResourceName: 'boolean' is an invalid message
+[4.952s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[4.952s] 
+[4.953s] Call Stack (most recent call first):
+[4.953s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[4.953s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[4.953s] 
+[4.954s] [0m
+[4.954s] -- Configuring incomplete, errors occurred!
+[4.973s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces

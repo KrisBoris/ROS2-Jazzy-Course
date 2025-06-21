@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/CalculateRectangleArea.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct CalculateRectangleArea_Request {
+      double height;
+
+      double width;
+    };
+    struct CalculateRectangleArea_Response {
+      double area;
+    };
+  };
+};

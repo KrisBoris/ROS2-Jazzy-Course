@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(my_robot_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -49,6 +50,9 @@ ament_target_dependencies(add_two_ints_client rclcpp example_interfaces)
 add_executable(reset_counter src/reset_counter.cpp)
 ament_target_dependencies(reset_counter rclcpp example_interfaces)
 
+add_executable(hardware_status_publisher src/hardware_status_publisher.cpp)
+ament_target_dependencies(hardware_status_publisher rclcpp my_robot_interfaces)
+
 install(TARGETS
   cpp_node
   robot_news_station
@@ -59,6 +63,7 @@ install(TARGETS
   add_two_ints_client_no_oop
   add_two_ints_client
   reset_counter
+  hardware_status_publisher
   DESTINATION lib/${PROJECT_NAME}
 )
 

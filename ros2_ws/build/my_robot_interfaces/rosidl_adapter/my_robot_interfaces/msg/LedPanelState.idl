@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_interfaces/msg/LedPanelState.msg
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module msg {
+    typedef boolean boolean__3[3];
+    @verbatim (language="comment", text=
+      "array representing led panel status" "\n"
+      "array position corresponds to led number " "\n"
+      "0 = off, 1 = on")
+    struct LedPanelState {
+      boolean__3 led_status;
+    };
+  };
+};

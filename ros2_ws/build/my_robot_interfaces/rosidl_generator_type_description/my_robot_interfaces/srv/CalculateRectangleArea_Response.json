@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/srv/CalculateRectangleArea_Response",
+      "fields": [
+        {
+          "name": "area",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/srv/CalculateRectangleArea_Response",
+      "hash_string": "RIHS01_b2bb44d90f9498638cba73b86dd325e41b5db07e5d1fc16cc6d41f90008360bf"
+    }
+  ]
+}
