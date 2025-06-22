@@ -8,9 +8,11 @@ class NumberPublisherNode(Node):
 
     def __init__(self):
         super().__init__("number_publisher")
-        self.number_ = 2
+        self.declare_parameter("number", 2)
+        self.declare_parameter("timer_period", 2.0)
+        self.number_ = self.get_parameter("number")
         self.publisher_ = self.create_publisher(Int64, "number", 10)
-        self.timer_ = self.create_timer(2.0, self.callback_publish)
+        self.timer_ = self.create_timer(self.get_parameter("timer_period"), self.callback_publish)
         self.get_logger().info("number_publisher node has been started")
 
     def callback_publish(self):
