@@ -12,6 +12,7 @@ public:
             std::bind(&BatteryMonitorNode::callbackShortTimer, this));
         longTimer_ = this->create_wall_timer(std::chrono::seconds(6), 
             std::bind(&BatteryMonitorNode::callbackLongTimer, this));
+        RCLCPP_INFO(this->get_logger(), "battery_monitor has been started");
     }
 private:
     bool batteryState_;  // 0 = empty, 1 = full
@@ -30,7 +31,7 @@ private:
 
         auto request = std::make_shared<my_robot_interfaces::srv::SetLed::Request>();
         request->led_number = 3;
-        request->led_status = batteryState_;
+        request->led_status = !batteryState_;
         
         client_->async_send_request(request, std::bind(&BatteryMonitorNode::callbackClient, this,
             std::placeholders::_1));
@@ -44,11 +45,29 @@ private:
     void callbackLongTimer()
     {
         batteryState_ = 1;
+
+        while(!client_->wait_for_service(std::chrono::seconds(1)))
+        {
+            RCLCPP_INFO(this->get_logger(), "I realized...");
+        }
+
+        auto request = std::make_shared<my_robot_interfaces::srv::SetLed::Request>();
+        request->led_number = 3;
+        request->led_status = !batteryState_;
+        
+        client_->async_send_request(request, std::bind(&BatteryMonitorNode::callbackClient, this,
+            std::placeholders::_1));
+
+        // Stop 4 seconds timer
+        longTimer_->cancel();
+        // Start 6 seconds timer
+        shortTimer_->reset();        
     }
 
     void callbackClient(rclcpp::Client<my_robot_interfaces::srv::SetLed>::SharedFuture future)
     {
-
+        auto result = future.get();
+        RCLCPP_INFO(this->get_logger(), "Response is %s", result->success ? "true" : "false");
     }
 };
 

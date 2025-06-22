@@ -10,7 +10,8 @@ public:
         service_ = this->create_service<my_robot_interfaces::srv::SetLed>("set_led", 
             std::bind(&LedPanelNode::callbackService, this, std::placeholders::_1, std::placeholders::_2));
         publisher_ = this->create_publisher<my_robot_interfaces::msg::LedPanelState>("led_panel_state", 10);    
-        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(LedPanelNode::callbackTimer, this));    
+        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&LedPanelNode::callbackTimer, this));    
+        RCLCPP_INFO(this->get_logger(), "led_panel has been started");
     }
 private:    
     bool ledPanelState[3] = {0, 0, 0};

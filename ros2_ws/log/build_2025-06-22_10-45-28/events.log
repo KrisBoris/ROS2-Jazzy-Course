@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000350] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000418] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces'})}
+[0.000487] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.038204] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.042159] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.042223] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2596-0-kros_TIME147119', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2349', 'SYSTEMD_EXEC_PID': '2596', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3430', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:15923', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2569,unix/kros:/tmp/.ICE-unix/2569', 'INVOCATION_ID': '8f439c1f94fb461f9e13157d3f223915', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AL8C82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7636522b-c70c-426d-a81c-c3a45cd24e0b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.098056] (-) TimerEvent: {}
+[0.126563] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199904] (-) TimerEvent: {}
+[0.300426] (-) TimerEvent: {}
+[0.400987] (-) TimerEvent: {}
+[0.501401] (-) TimerEvent: {}
+[0.602091] (-) TimerEvent: {}
+[0.702697] (-) TimerEvent: {}
+[0.765066] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.803035] (-) TimerEvent: {}
+[0.887119] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.903286] (-) TimerEvent: {}
+[0.932165] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.982606] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.003736] (-) TimerEvent: {}
+[1.044188] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103928] (-) TimerEvent: {}
+[1.204252] (-) TimerEvent: {}
+[1.304583] (-) TimerEvent: {}
+[1.328071] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.332854] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.406253] (-) TimerEvent: {}
+[1.506673] (-) TimerEvent: {}
+[1.575414] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.606831] (-) TimerEvent: {}
+[1.707357] (-) TimerEvent: {}
+[1.808347] (-) TimerEvent: {}
+[1.865812] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[1.908611] (-) TimerEvent: {}
+[2.008990] (-) TimerEvent: {}
+[2.108360] (my_cpp_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[2.109150] (-) TimerEvent: {}
+[2.183294] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.210502] (-) TimerEvent: {}
+[2.310833] (-) TimerEvent: {}
+[2.411995] (-) TimerEvent: {}
+[2.513061] (-) TimerEvent: {}
+[2.548736] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.550838] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.551179] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.553305] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.557294] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.557487] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.558833] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.561208] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.613289] (-) TimerEvent: {}
+[2.713968] (-) TimerEvent: {}
+[2.779520] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[2.814233] (-) TimerEvent: {}
+[2.869150] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg\n'}
+[2.914420] (-) TimerEvent: {}
+[3.003260] (my_cpp_pkg) StdoutLine: {'line': b'[  8%] Built target cpp_node\n'}
+[3.009982] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Built target smartphone\n'}
+[3.015088] (-) TimerEvent: {}
+[3.025094] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target number_publisher\n'}
+[3.046103] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target robot_news_station\n'}
+[3.115022] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] Built target number_counter\n'}
+[3.115354] (-) TimerEvent: {}
+[3.130979] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_client_no_oop\n'}
+[3.139776] (my_cpp_pkg) StdoutLine: {'line': b'[ 58%] Built target add_two_ints_server\n'}
+[3.170948] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target add_two_ints_client\n'}
+[3.212157] (my_cpp_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o\x1b[0m\n'}
+[3.219505] (-) TimerEvent: {}
+[3.219820] (my_cpp_pkg) StdoutLine: {'line': b'[ 79%] Built target reset_counter\n'}
+[3.229939] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o\x1b[0m\n'}
+[3.257444] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target hardware_status_publisher\n'}
+[3.319989] (-) TimerEvent: {}
+[3.420374] (-) TimerEvent: {}
+[3.520971] (-) TimerEvent: {}
+[3.627196] (-) TimerEvent: {}
+[3.732197] (-) TimerEvent: {}
+[3.837800] (-) TimerEvent: {}
+[3.940299] (-) TimerEvent: {}
+[4.042888] (-) TimerEvent: {}
+[4.143431] (-) TimerEvent: {}
+[4.246249] (-) TimerEvent: {}
+[4.349152] (-) TimerEvent: {}
+[4.451974] (-) TimerEvent: {}
+[4.555268] (-) TimerEvent: {}
+[4.657976] (-) TimerEvent: {}
+[4.761137] (-) TimerEvent: {}
+[4.864094] (-) TimerEvent: {}
+[4.965097] (-) TimerEvent: {}
+[5.067732] (-) TimerEvent: {}
+[5.170813] (-) TimerEvent: {}
+[5.273595] (-) TimerEvent: {}
+[5.376542] (-) TimerEvent: {}
+[5.479180] (-) TimerEvent: {}
+[5.581950] (-) TimerEvent: {}
+[5.684800] (-) TimerEvent: {}
+[5.786323] (-) TimerEvent: {}
+[5.889111] (-) TimerEvent: {}
+[5.990912] (-) TimerEvent: {}
+[6.094002] (-) TimerEvent: {}
+[6.196689] (-) TimerEvent: {}
+[6.299538] (-) TimerEvent: {}
+[6.402439] (-) TimerEvent: {}
+[6.503238] (-) TimerEvent: {}
+[6.606030] (-) TimerEvent: {}
+[6.709280] (-) TimerEvent: {}
+[6.811847] (-) TimerEvent: {}
+[6.914224] (-) TimerEvent: {}
+[7.015922] (-) TimerEvent: {}
+[7.118909] (-) TimerEvent: {}
+[7.224368] (-) TimerEvent: {}
+[7.327199] (-) TimerEvent: {}
+[7.430608] (-) TimerEvent: {}
+[7.534921] (-) TimerEvent: {}
+[7.640316] (-) TimerEvent: {}
+[7.743694] (-) TimerEvent: {}
+[7.844511] (-) TimerEvent: {}
+[7.949932] (-) TimerEvent: {}
+[8.051948] (-) TimerEvent: {}
+[8.155172] (-) TimerEvent: {}
+[8.257649] (-) TimerEvent: {}
+[8.360446] (-) TimerEvent: {}
+[8.460883] (-) TimerEvent: {}
+[8.563929] (-) TimerEvent: {}
+[8.666698] (-) TimerEvent: {}
+[8.769941] (-) TimerEvent: {}
+[8.870427] (-) TimerEvent: {}
+[8.973241] (-) TimerEvent: {}
+[9.076015] (-) TimerEvent: {}
+[9.178841] (-) TimerEvent: {}
+[9.284332] (-) TimerEvent: {}
+[9.387088] (-) TimerEvent: {}
+[9.488002] (-) TimerEvent: {}
+[9.590970] (-) TimerEvent: {}
+[9.695383] (-) TimerEvent: {}
+[9.798474] (-) TimerEvent: {}
+[9.860922] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLedPanelNode::\x1b[01;32m\x1b[KLedPanelNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.861459] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:13:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LedPanelNode::\x1b[01;32m\x1b[KcallbackTimer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.861778] (my_cpp_pkg) StderrLine: {'line': b'   13 |         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(\x1b[01;31m\x1b[KLedPanelNode::callbackTimer\x1b[m\x1b[K, this));\n'}
+[9.862128] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.862411] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:28:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.862719] (my_cpp_pkg) StderrLine: {'line': b'   28 |     void \x1b[01;36m\x1b[KcallbackTimer\x1b[m\x1b[K()\n'}
+[9.863052] (my_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.900105] (-) TimerEvent: {}
+[10.005437] (-) TimerEvent: {}
+[10.105849] (-) TimerEvent: {}
+[10.209120] (-) TimerEvent: {}
+[10.309592] (-) TimerEvent: {}
+[10.412593] (-) TimerEvent: {}
+[10.516118] (-) TimerEvent: {}
+[10.618550] (-) TimerEvent: {}
+[10.724235] (-) TimerEvent: {}
+[10.826922] (-) TimerEvent: {}
+[10.927474] (-) TimerEvent: {}
+[11.032549] (-) TimerEvent: {}
+[11.135135] (-) TimerEvent: {}
+[11.238252] (-) TimerEvent: {}
+[11.341077] (-) TimerEvent: {}
+[11.443499] (-) TimerEvent: {}
+[11.543932] (-) TimerEvent: {}
+[11.646975] (-) TimerEvent: {}
+[11.750118] (-) TimerEvent: {}
+[11.853233] (-) TimerEvent: {}
+[11.960721] (-) TimerEvent: {}
+[12.063515] (-) TimerEvent: {}
+[12.163980] (-) TimerEvent: {}
+[12.266629] (-) TimerEvent: {}
+[12.376212] (-) TimerEvent: {}
+[12.479270] (-) TimerEvent: {}
+[12.582191] (-) TimerEvent: {}
+[12.684583] (-) TimerEvent: {}
+[12.784947] (-) TimerEvent: {}
+[12.887792] (-) TimerEvent: {}
+[12.990648] (-) TimerEvent: {}
+[13.048793] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/led_panel.dir/build.make:76: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1\n'}
+[13.049346] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/led_panel.dir/all] Error 2\n'}
+[13.049603] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[13.093075] (-) TimerEvent: {}
+[13.194902] (-) TimerEvent: {}
+[13.297936] (-) TimerEvent: {}
+[13.402329] (-) TimerEvent: {}
+[13.505825] (-) TimerEvent: {}
+[13.606745] (-) TimerEvent: {}
+[13.709511] (-) TimerEvent: {}
+[13.810742] (-) TimerEvent: {}
+[13.914268] (-) TimerEvent: {}
+[14.016932] (-) TimerEvent: {}
+[14.120118] (-) TimerEvent: {}
+[14.223130] (-) TimerEvent: {}
+[14.314676] (my_cpp_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable battery_monitor\x1b[0m\n'}
+[14.323968] (-) TimerEvent: {}
+[14.424715] (-) TimerEvent: {}
+[14.527334] (-) TimerEvent: {}
+[14.632424] (-) TimerEvent: {}
+[14.740273] (-) TimerEvent: {}
+[14.787384] (my_cpp_pkg) StdoutLine: {'line': b'[ 95%] Built target battery_monitor\n'}
+[14.790183] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.794552] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[14.822455] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[14.834671] (-) EventReactorShutdown: {}

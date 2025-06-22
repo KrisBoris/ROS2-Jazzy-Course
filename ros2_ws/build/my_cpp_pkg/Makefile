@@ -327,6 +327,32 @@ hardware_status_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/build
 .PHONY : hardware_status_publisher/fast
 
+#=============================================================================
+# Target rules for targets named battery_monitor
+
+# Build rule for target.
+battery_monitor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_monitor
+.PHONY : battery_monitor
+
+# fast build rule for target.
+battery_monitor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_monitor.dir/build.make CMakeFiles/battery_monitor.dir/build
+.PHONY : battery_monitor/fast
+
+#=============================================================================
+# Target rules for targets named led_panel
+
+# Build rule for target.
+led_panel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 led_panel
+.PHONY : led_panel
+
+# fast build rule for target.
+led_panel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/build
+.PHONY : led_panel/fast
+
 src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
 .PHONY : src/add_two_ints_client.o
 
@@ -399,6 +425,30 @@ src/add_two_ints_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
 
+src/battery_monitor.o: src/battery_monitor.cpp.o
+.PHONY : src/battery_monitor.o
+
+# target to build an object file
+src/battery_monitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_monitor.dir/build.make CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o
+.PHONY : src/battery_monitor.cpp.o
+
+src/battery_monitor.i: src/battery_monitor.cpp.i
+.PHONY : src/battery_monitor.i
+
+# target to preprocess a source file
+src/battery_monitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_monitor.dir/build.make CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.i
+.PHONY : src/battery_monitor.cpp.i
+
+src/battery_monitor.s: src/battery_monitor.cpp.s
+.PHONY : src/battery_monitor.s
+
+# target to generate assembly for a file
+src/battery_monitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_monitor.dir/build.make CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.s
+.PHONY : src/battery_monitor.cpp.s
+
 src/hardware_status_publisher.o: src/hardware_status_publisher.cpp.o
 .PHONY : src/hardware_status_publisher.o
 
@@ -422,6 +472,30 @@ src/hardware_status_publisher.s: src/hardware_status_publisher.cpp.s
 src/hardware_status_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.s
 .PHONY : src/hardware_status_publisher.cpp.s
+
+src/led_panel.o: src/led_panel.cpp.o
+.PHONY : src/led_panel.o
+
+# target to build an object file
+src/led_panel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/src/led_panel.cpp.o
+.PHONY : src/led_panel.cpp.o
+
+src/led_panel.i: src/led_panel.cpp.i
+.PHONY : src/led_panel.i
+
+# target to preprocess a source file
+src/led_panel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/src/led_panel.cpp.i
+.PHONY : src/led_panel.cpp.i
+
+src/led_panel.s: src/led_panel.cpp.s
+.PHONY : src/led_panel.s
+
+# target to generate assembly for a file
+src/led_panel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel.dir/build.make CMakeFiles/led_panel.dir/src/led_panel.cpp.s
+.PHONY : src/led_panel.cpp.s
 
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
@@ -585,8 +659,10 @@ help:
 	@echo "... add_two_ints_client"
 	@echo "... add_two_ints_client_no_oop"
 	@echo "... add_two_ints_server"
+	@echo "... battery_monitor"
 	@echo "... cpp_node"
 	@echo "... hardware_status_publisher"
+	@echo "... led_panel"
 	@echo "... number_counter"
 	@echo "... number_publisher"
 	@echo "... reset_counter"
@@ -601,9 +677,15 @@ help:
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/battery_monitor.o"
+	@echo "... src/battery_monitor.i"
+	@echo "... src/battery_monitor.s"
 	@echo "... src/hardware_status_publisher.o"
 	@echo "... src/hardware_status_publisher.i"
 	@echo "... src/hardware_status_publisher.s"
+	@echo "... src/led_panel.o"
+	@echo "... src/led_panel.i"
+	@echo "... src/led_panel.s"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"

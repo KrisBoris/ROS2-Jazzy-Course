@@ -1,0 +1,11 @@
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:[m[K In constructor ‘[01m[KLedPanelNode::[01;32m[KLedPanelNode[m[K()[m[K’:
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:13:91:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid LedPanelNode::[01;32m[KcallbackTimer[m[K()[m[K’
+   13 |         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind([01;31m[KLedPanelNode::callbackTimer[m[K, this));
+      |                                                                             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:28:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     void [01;36m[KcallbackTimer[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/led_panel.dir/build.make:76: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/led_panel.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

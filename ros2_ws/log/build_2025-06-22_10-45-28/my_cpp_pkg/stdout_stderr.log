@@ -1,0 +1,47 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.5s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg
+[  8%] Built target cpp_node
+[ 16%] Built target smartphone
+[ 25%] Built target number_publisher
+[ 33%] Built target robot_news_station
+[ 41%] Built target number_counter
+[ 50%] Built target add_two_ints_client_no_oop
+[ 58%] Built target add_two_ints_server
+[ 66%] Built target add_two_ints_client
+[ 70%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[ 79%] Built target reset_counter
+[ 83%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[ 91%] Built target hardware_status_publisher
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:[m[K In constructor ‘[01m[KLedPanelNode::[01;32m[KLedPanelNode[m[K()[m[K’:
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:13:91:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid LedPanelNode::[01;32m[KcallbackTimer[m[K()[m[K’
+   13 |         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind([01;31m[KLedPanelNode::callbackTimer[m[K, this));
+      |                                                                             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:28:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     void [01;36m[KcallbackTimer[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/led_panel.dir/build.make:76: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/led_panel.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 95%] [32m[1mLinking CXX executable battery_monitor[0m
+[ 95%] Built target battery_monitor
+gmake: *** [Makefile:146: all] Error 2
