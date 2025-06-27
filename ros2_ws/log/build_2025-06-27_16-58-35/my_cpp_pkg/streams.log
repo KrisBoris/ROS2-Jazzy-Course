@@ -1,0 +1,47 @@
+[0.037s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.217s] [  8%] Built target cpp_node
+[0.229s] [ 12%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.245s] [ 20%] Built target robot_news_station
+[0.251s] [ 29%] Built target smartphone
+[0.326s] [ 37%] Built target number_counter
+[0.343s] [ 45%] Built target add_two_ints_server
+[0.357s] [ 54%] Built target add_two_ints_client_no_oop
+[0.412s] [ 62%] Built target add_two_ints_client
+[0.445s] [ 70%] Built target reset_counter
+[0.454s] [ 79%] Built target hardware_status_publisher
+[0.500s] [ 87%] Built target battery_monitor
+[0.548s] [ 95%] Built target led_panel
+[12.572s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[13.138s] [100%] Built target number_publisher
+[13.169s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[13.195s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg
+[13.219s] -- Install configuration: ""
+[13.219s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[13.220s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[13.221s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[13.222s] -- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[13.226s] -- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[13.226s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[13.227s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[13.228s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[13.229s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[13.230s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter
+[13.232s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[13.232s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_monitor
+[13.233s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[13.234s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[13.234s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[13.234s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[13.235s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[13.235s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[13.235s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[13.235s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[13.235s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[13.236s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[13.236s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[13.236s] -- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[13.237s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[13.237s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[13.237s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[13.237s] -- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[13.242s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg

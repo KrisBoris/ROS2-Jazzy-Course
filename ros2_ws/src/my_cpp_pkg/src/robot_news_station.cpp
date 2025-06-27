@@ -3,11 +3,14 @@
 
 using namespace std::chrono_literals;
 
-class RobotNewsStationNode : public rclcpp::Node  // Change name
+class RobotNewsStationNode : public rclcpp::Node
 {
 public:
-    RobotNewsStationNode() : Node("robot_news_station")    // Change names
-    {                
+    RobotNewsStationNode() : Node("robot_news_station")
+    {          
+        this->declare_parameter("robot_name", "R2-D2");
+        
+        robotName_ = this->get_parameter("robot_name").as_string();
         publisher_ = this->create_publisher<example_interfaces::msg::String>("robot_news", 10);
         timer_ = this->create_wall_timer(1s, std::bind(&RobotNewsStationNode::publishNews, this));
         RCLCPP_INFO(this->get_logger(), "Robot News Station has started");
@@ -15,12 +18,12 @@ public:
 private:   
     rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
-    std::string message = "Hello there";
+    std::string robotName_;
 
     void publishNews()
     {
         auto msg = example_interfaces::msg::String();
-        msg.data = std::string(message);
+        msg.data = std::string("Hello there, this is " + robotName_ + " from Robot News Station");
         publisher_->publish(msg);
     }
 };
@@ -28,7 +31,7 @@ private:
 int main(int argc, char **argv) 
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<RobotNewsStationNode>();    // Change name
+    auto node = std::make_shared<RobotNewsStationNode>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;

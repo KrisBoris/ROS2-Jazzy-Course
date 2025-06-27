@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000399] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000504] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces'})}
+[0.000572] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.098738] (-) TimerEvent: {}
+[0.199260] (-) TimerEvent: {}
+[0.299853] (-) TimerEvent: {}
+[0.400419] (-) TimerEvent: {}
+[0.501064] (-) TimerEvent: {}
+[0.601732] (-) TimerEvent: {}
+[0.702953] (-) TimerEvent: {}
+[0.803400] (-) TimerEvent: {}
+[0.904328] (-) TimerEvent: {}
+[1.004685] (-) TimerEvent: {}
+[1.108930] (-) TimerEvent: {}
+[1.213739] (-) TimerEvent: {}
+[1.318738] (-) TimerEvent: {}
+[1.421703] (-) TimerEvent: {}
+[1.522182] (-) TimerEvent: {}
+[1.623937] (-) TimerEvent: {}
+[1.724696] (-) TimerEvent: {}
+[1.825654] (-) TimerEvent: {}
+[1.931029] (-) TimerEvent: {}
+[2.036182] (-) TimerEvent: {}
+[2.137534] (-) TimerEvent: {}
+[2.243150] (-) TimerEvent: {}
+[2.347970] (-) TimerEvent: {}
+[2.452804] (-) TimerEvent: {}
+[2.558213] (-) TimerEvent: {}
+[2.659933] (-) TimerEvent: {}
+[2.674887] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2681-0-kros_TIME365894', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2439', 'SYSTEMD_EXEC_PID': '2681', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3518', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:17440', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2646,unix/kros:/tmp/.ICE-unix/2646', 'INVOCATION_ID': 'c4417078fca54130ad4e2abd1ec85595', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M4QM82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:452bdb1f-6c2b-4519-93ae-48f041c6e121', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.760159] (-) TimerEvent: {}
+[2.863887] (-) TimerEvent: {}
+[2.965048] (-) TimerEvent: {}
+[3.066054] (-) TimerEvent: {}
+[3.175543] (-) TimerEvent: {}
+[3.276141] (-) TimerEvent: {}
+[3.376663] (-) TimerEvent: {}
+[3.477235] (-) TimerEvent: {}
+[3.577839] (-) TimerEvent: {}
+[3.680278] (-) TimerEvent: {}
+[3.780874] (-) TimerEvent: {}
+[3.881397] (-) TimerEvent: {}
+[3.981899] (-) TimerEvent: {}
+[3.988396] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.082548] (-) TimerEvent: {}
+[4.183116] (-) TimerEvent: {}
+[4.283673] (-) TimerEvent: {}
+[4.385252] (-) TimerEvent: {}
+[4.485796] (-) TimerEvent: {}
+[4.588476] (-) TimerEvent: {}
+[4.689093] (-) TimerEvent: {}
+[4.790491] (-) TimerEvent: {}
+[4.840828] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.890738] (-) TimerEvent: {}
+[4.905495] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[4.906041] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[4.907508] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[4.912032] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[4.912633] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[4.991219] (-) TimerEvent: {}
+[5.052858] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.055861] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.091310] (-) TimerEvent: {}
+[5.126565] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.127427] (my_py_pkg) StdoutLine: {'line': b'Creating /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[5.129096] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.129859] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.132075] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.132471] (my_py_pkg) StdoutLine: {'line': b'Installing battery_monitor script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.132754] (my_py_pkg) StdoutLine: {'line': b'Installing hardware_status_publisher script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.133153] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.133448] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.133702] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.134118] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.134484] (my_py_pkg) StdoutLine: {'line': b'Installing reset_counter script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.136374] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.136694] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.137044] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[5.137278] (my_py_pkg) StdoutLine: {'line': b'Installed /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg\n'}
+[5.138273] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[5.191587] (-) TimerEvent: {}
+[5.251541] (my_py_pkg) CommandEnded: {'returncode': 0}
+[5.284002] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[5.285616] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[ 16%] Built target smartphone
+[ 16%] Built target cpp_node
+[ 25%] Built target robot_news_station
+[ 33%] Built target number_publisher
+[ 41%] Built target add_two_ints_client_no_oop
+[ 50%] Built target add_two_ints_server
+[ 58%] Built target number_counter
+[ 66%] Built target add_two_ints_client
+[ 75%] Built target reset_counter
+[ 83%] Built target hardware_status_publisher
+[ 91%] Built target battery_monitor
+[ 95%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m

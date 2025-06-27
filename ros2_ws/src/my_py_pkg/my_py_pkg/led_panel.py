@@ -9,12 +9,15 @@ from my_robot_interfaces.srv import SetLed
 class LedPanelStateNode(Node):
 
     def __init__(self):
-        super().__init__("led_panel_state_node")
-        self.led_panel_status = [False] * 3        
+        super().__init__("led_panel")
+
+        self.declare_parameter("led_states", [False, False, False])
+
+        self.led_panel_status = self.get_parameter("led_states").value         
         self.service_ = self.create_service(SetLed, "set_led", self.callback_service)
         self.publisher_ = self.create_publisher(LedPanelState, "led_panel_state", 10)
         self.timer_ = self.create_timer(1.0, self.callback_timer)
-        self.get_logger().info("led-panel_state_node has been started")
+        self.get_logger().info("led_panel has been started")
 
     def callback_service(self, request: SetLed.Request, response: SetLed.Response):
         self.led_panel_status[request.led_number - 1] = request.led_status

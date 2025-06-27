@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000447] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000510] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces'})}
+[0.000578] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.032938] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.034879] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.037048] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2681-0-kros_TIME365894', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2439', 'SYSTEMD_EXEC_PID': '2681', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3518', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:17440', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2646,unix/kros:/tmp/.ICE-unix/2646', 'INVOCATION_ID': 'c4417078fca54130ad4e2abd1ec85595', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M4QM82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:452bdb1f-6c2b-4519-93ae-48f041c6e121', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.098692] (-) TimerEvent: {}
+[0.199952] (-) TimerEvent: {}
+[0.241381] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Built target smartphone\n'}
+[0.241893] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Built target cpp_node\n'}
+[0.242204] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target robot_news_station\n'}
+[0.243059] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target number_publisher\n'}
+[0.302836] (-) TimerEvent: {}
+[0.335569] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] Built target add_two_ints_client_no_oop\n'}
+[0.336928] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_server\n'}
+[0.343000] (my_cpp_pkg) StdoutLine: {'line': b'[ 58%] Built target number_counter\n'}
+[0.344212] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target add_two_ints_client\n'}
+[0.403817] (-) TimerEvent: {}
+[0.423785] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target reset_counter\n'}
+[0.435631] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target hardware_status_publisher\n'}
+[0.444325] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target battery_monitor\n'}
+[0.445288] (my_cpp_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o\x1b[0m\n'}
+[0.504396] (-) TimerEvent: {}
+[0.605997] (-) TimerEvent: {}
+[0.706711] (-) TimerEvent: {}
+[0.807142] (-) TimerEvent: {}
+[0.909369] (-) TimerEvent: {}
+[1.010875] (-) TimerEvent: {}
+[1.111286] (-) TimerEvent: {}
+[1.212885] (-) TimerEvent: {}
+[1.314552] (-) TimerEvent: {}
+[1.416062] (-) TimerEvent: {}
+[1.517791] (-) TimerEvent: {}
+[1.619165] (-) TimerEvent: {}
+[1.720511] (-) TimerEvent: {}
+[1.822185] (-) TimerEvent: {}
+[1.923124] (-) TimerEvent: {}
+[2.025645] (-) TimerEvent: {}
+[2.126567] (-) TimerEvent: {}
+[2.228315] (-) TimerEvent: {}
+[2.329224] (-) TimerEvent: {}
+[2.429925] (-) TimerEvent: {}
+[2.530688] (-) TimerEvent: {}
+[2.632995] (-) TimerEvent: {}
+[2.733836] (-) TimerEvent: {}
+[2.834627] (-) TimerEvent: {}
+[2.935054] (-) TimerEvent: {}
+[3.035821] (-) TimerEvent: {}
+[3.136140] (-) TimerEvent: {}
+[3.237812] (-) TimerEvent: {}
+[3.338166] (-) TimerEvent: {}
+[3.438838] (-) TimerEvent: {}
+[3.539618] (-) TimerEvent: {}
+[3.640732] (-) TimerEvent: {}
+[3.741956] (-) TimerEvent: {}
+[3.842789] (-) TimerEvent: {}
+[3.944225] (-) TimerEvent: {}
+[4.044841] (-) TimerEvent: {}
+[4.147104] (-) TimerEvent: {}
+[4.248190] (-) TimerEvent: {}
+[4.350292] (-) TimerEvent: {}
+[4.451798] (-) TimerEvent: {}
+[4.553409] (-) TimerEvent: {}
+[4.654834] (-) TimerEvent: {}
+[4.756498] (-) TimerEvent: {}
+[4.857872] (-) TimerEvent: {}
+[4.959117] (-) TimerEvent: {}
+[5.059770] (-) TimerEvent: {}
+[5.161291] (-) TimerEvent: {}
+[5.262168] (-) TimerEvent: {}
+[5.364355] (-) TimerEvent: {}
+[5.465817] (-) TimerEvent: {}
+[5.567091] (-) TimerEvent: {}
+[5.669578] (-) TimerEvent: {}
+[5.770816] (-) TimerEvent: {}
+[5.873250] (-) TimerEvent: {}
+[5.974088] (-) TimerEvent: {}
+[6.074789] (-) TimerEvent: {}
+[6.175785] (-) TimerEvent: {}
+[6.276973] (-) TimerEvent: {}
+[6.379238] (-) TimerEvent: {}
+[6.479685] (-) TimerEvent: {}
+[6.582304] (-) TimerEvent: {}
+[6.631051] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663\x1b[m\x1b[K,\n'}
+[6.631518] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.631890] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.633014] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[6.633357] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:1\x1b[m\x1b[K:\n'}
+[6.633670] (my_cpp_pkg) StderrLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::\x1b[01;32m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool) \x1b[35m\x1b[K[with ParameterT = my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.634089] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:10:32:\x1b[m\x1b[K   required from here\n'}
+[6.634381] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:255:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.634701] (my_cpp_pkg) StderrLine: {'line': b'  255 |       rclcpp::\x1b[01;31m\x1b[KParameterValue(default_value)\x1b[m\x1b[K,\n'}
+[6.635003] (my_cpp_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.635438] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[6.635531] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25\x1b[m\x1b[K,\n'}
+[6.635618] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K:\n'}
+[6.635701] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:122:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.636011] (my_cpp_pkg) StderrLine: {'line': b'  122 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::string> & string_array_value);\n'}
+[6.636220] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.636439] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:122:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.636652] (my_cpp_pkg) StderrLine: {'line': b'  122 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<std::string> & string_array_value\x1b[m\x1b[K);\n'}
+[6.636929] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.637139] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:119:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.637346] (my_cpp_pkg) StderrLine: {'line': b'  119 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double> & double_array_value);\n'}
+[6.637551] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.637813] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:119:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.638034] (my_cpp_pkg) StderrLine: {'line': b'  119 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<double> & double_array_value\x1b[m\x1b[K);\n'}
+[6.638250] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.638451] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:116:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.638654] (my_cpp_pkg) StderrLine: {'line': b'  116 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float> & double_array_value);\n'}
+[6.638942] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.639173] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:116:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.639386] (my_cpp_pkg) StderrLine: {'line': b'  116 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<float> & double_array_value\x1b[m\x1b[K);\n'}
+[6.639586] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.639874] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:113:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.640086] (my_cpp_pkg) StderrLine: {'line': b'  113 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int64_t> & int_array_value);\n'}
+[6.640286] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.640484] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:113:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.640807] (my_cpp_pkg) StderrLine: {'line': b'  113 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int64_t> & int_array_value\x1b[m\x1b[K);\n'}
+[6.641021] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.641222] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:110:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.641426] (my_cpp_pkg) StderrLine: {'line': b'  110 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int> & int_array_value);\n'}
+[6.641668] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.641875] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:110:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.642091] (my_cpp_pkg) StderrLine: {'line': b'  110 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int> & int_array_value\x1b[m\x1b[K);\n'}
+[6.642291] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.642491] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:107:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool, std::allocator<bool> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.642859] (my_cpp_pkg) StderrLine: {'line': b'  107 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool> & bool_array_value);\n'}
+[6.643069] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.643268] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:107:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<bool, std::allocator<bool> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.643483] (my_cpp_pkg) StderrLine: {'line': b'  107 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<bool> & bool_array_value\x1b[m\x1b[K);\n'}
+[6.643789] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.644015] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:104:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.644220] (my_cpp_pkg) StderrLine: {'line': b'  104 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<uint8_t> & byte_array_value);\n'}
+[6.644420] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.644647] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:104:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.644926] (my_cpp_pkg) StderrLine: {'line': b'  104 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<uint8_t> & byte_array_value\x1b[m\x1b[K);\n'}
+[6.645130] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.645330] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.645564] (my_cpp_pkg) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const char * string_value);\n'}
+[6.645820] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.646031] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:101:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.646237] (my_cpp_pkg) StderrLine: {'line': b'  101 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst char * string_value\x1b[m\x1b[K);\n'}
+[6.646435] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.646662] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.646928] (my_cpp_pkg) StderrLine: {'line': b'   98 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::string & string_value);\n'}
+[6.647132] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.647338] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:98:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.647602] (my_cpp_pkg) StderrLine: {'line': b'   98 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::string & string_value\x1b[m\x1b[K);\n'}
+[6.647876] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.648079] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:95:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.648275] (my_cpp_pkg) StderrLine: {'line': b'   95 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[6.648511] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.648782] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:95:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.649024] (my_cpp_pkg) StderrLine: {'line': b'   95 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst double double_value\x1b[m\x1b[K);\n'}
+[6.649236] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.649472] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:92:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.649690] (my_cpp_pkg) StderrLine: {'line': b'   92 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[6.649971] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.650165] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:92:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.650363] (my_cpp_pkg) StderrLine: {'line': b'   92 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst float double_value\x1b[m\x1b[K);\n'}
+[6.650598] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.650881] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.651086] (my_cpp_pkg) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[6.651279] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.651519] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:89:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.651792] (my_cpp_pkg) StderrLine: {'line': b'   89 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int64_t int_value\x1b[m\x1b[K);\n'}
+[6.652015] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.652208] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.652451] (my_cpp_pkg) StderrLine: {'line': b'   86 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[6.652654] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.652930] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:86:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.653133] (my_cpp_pkg) StderrLine: {'line': b'   86 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int int_value\x1b[m\x1b[K);\n'}
+[6.653355] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.653569] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:83:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.653840] (my_cpp_pkg) StderrLine: {'line': b'   83 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[6.654054] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.654247] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:83:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.654492] (my_cpp_pkg) StderrLine: {'line': b'   83 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst bool bool_value\x1b[m\x1b[K);\n'}
+[6.654686] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.654960] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:80:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.655162] (my_cpp_pkg) StderrLine: {'line': b'   80 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue & value);\n'}
+[6.655403] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.655604] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:80:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.655884] (my_cpp_pkg) StderrLine: {'line': b'   80 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterValue & value\x1b[m\x1b[K);\n'}
+[6.656095] (my_cpp_pkg) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[6.656328] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:77:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.656541] (my_cpp_pkg) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K();\n'}
+[6.656787] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.657011] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:77:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[6.657206] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:72:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.657450] (my_cpp_pkg) StderrLine: {'line': b'   72 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[6.657644] (my_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.657919] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:72:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.658123] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:72:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::\x1b[01;32m\x1b[KParameterValue\x1b[m\x1b[K(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.658367] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp:72:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::LedPanelState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.683306] (-) TimerEvent: {}
+[6.784231] (-) TimerEvent: {}
+[6.885658] (-) TimerEvent: {}
+[6.986232] (-) TimerEvent: {}
+[7.087392] (-) TimerEvent: {}
+[7.188023] (-) TimerEvent: {}
+[7.288996] (-) TimerEvent: {}
+[7.389678] (-) TimerEvent: {}
+[7.491064] (-) TimerEvent: {}
+[7.593804] (-) TimerEvent: {}
+[7.697377] (-) TimerEvent: {}
+[7.799868] (-) TimerEvent: {}
+[7.900990] (-) TimerEvent: {}
+[8.001548] (-) TimerEvent: {}
+[8.105932] (-) TimerEvent: {}
+[8.209392] (-) TimerEvent: {}
+[8.312971] (-) TimerEvent: {}
+[8.415334] (-) TimerEvent: {}
+[8.515928] (-) TimerEvent: {}
+[8.619556] (-) TimerEvent: {}
+[8.721012] (-) TimerEvent: {}
+[8.824075] (-) TimerEvent: {}
+[8.926629] (-) TimerEvent: {}
+[9.029010] (-) TimerEvent: {}
+[9.130689] (-) TimerEvent: {}
+[9.232112] (-) TimerEvent: {}
+[9.335349] (-) TimerEvent: {}
+[9.438141] (-) TimerEvent: {}
+[9.540533] (-) TimerEvent: {}
+[9.643180] (-) TimerEvent: {}
+[9.655894] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/led_panel.dir/build.make:76: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1\n'}
+[9.656429] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/led_panel.dir/all] Error 2\n'}
+[9.657952] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.663455] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[9.690823] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[9.702017] (-) EventReactorShutdown: {}
