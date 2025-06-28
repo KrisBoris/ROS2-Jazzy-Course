@@ -1,0 +1,41 @@
+<launch>
+    <node
+        pkg="my_py_pkg"
+        exec="robot_news_station"
+        name="robot_news_station_r2d2">
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_app.yaml"/>
+    </node>
+
+    <node
+        pkg="my_py_pkg"
+        exec="robot_news_station"
+        name="robot_news_station_c3po">
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_app.yaml"/>
+    </node>
+
+    <node
+        pkg="my_py_pkg"
+        exec="robot_news_station"
+        name="robot_news_station_walle">
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_app.yaml"/>
+    </node>
+
+    <node
+        pkg="my_py_pkg"
+        exec="robot_news_station"
+        name="robot_news_station_eve">
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_app.yaml"/>
+    </node>
+
+    <node
+        pkg="my_py_pkg"
+        exec="robot_news_station"
+        name="robot_news_station_glados">
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_app.yaml"/>
+    </node>
+
+    <node
+        pkg="my_py_pkg"
+        exec="smartphone">        
+    </node>        
+</launch>
