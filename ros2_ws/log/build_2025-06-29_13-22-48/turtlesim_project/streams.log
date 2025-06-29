@@ -1,0 +1,17 @@
+[2.496s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project/build --no-deps symlink_data
+[3.518s] running develop
+[4.188s] running egg_info
+[4.248s] writing turtlesim_project.egg-info/PKG-INFO
+[4.249s] writing dependency_links to turtlesim_project.egg-info/dependency_links.txt
+[4.249s] writing entry points to turtlesim_project.egg-info/entry_points.txt
+[4.250s] writing requirements to turtlesim_project.egg-info/requires.txt
+[4.250s] writing top-level names to turtlesim_project.egg-info/top_level.txt
+[4.382s] reading manifest file 'turtlesim_project.egg-info/SOURCES.txt'
+[4.383s] writing manifest file 'turtlesim_project.egg-info/SOURCES.txt'
+[4.450s] running build_ext
+[4.450s] Creating /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages/turtlesim-project.egg-link (link to .)
+[4.452s] Installing turtle_spawner script to /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/turtlesim_project
+[4.452s] 
+[4.452s] Installed /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project
+[4.453s] running symlink_data
+[4.550s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project/build --no-deps symlink_data
