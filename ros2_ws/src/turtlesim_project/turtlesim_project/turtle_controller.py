@@ -12,7 +12,9 @@ class TurtleControllerNode(Node):
     def __init__(self):
         super().__init__("turtle_controller")
 
-        self.__spawned_turtles = []
+        self.__spawned_turtles: list[Pose] = []
+        self.__prev_x = 0.0
+        self.__prev_y = 0.0
 
         self.__publisher_velocity = self.create_publisher(Twist, "turtle1/cmd_vel", 10)
         self.__publisher_turtle_kill = self.create_publisher(Bool, "killed_turtle", 10)
@@ -21,14 +23,28 @@ class TurtleControllerNode(Node):
         self.get_logger().info("turtle_controller node has been started")
 
     def callback_subscription_spawned_turtle(self, msg: Pose):
-        self.__spawned_turtles.append(msg)    
+        self.__spawned_turtles.append(msg)            
 
     def callback_subscription_turtle_position(self, turtle_postion: Pose):
-        cmd_vel = Twist()
+        if len(self.__spawned_turtles) > 0:
+            
+            if abs(turtle_postion.x - self.__spawned_turtles[0]) < 0.05 and abs(turtle_postion.y - self.__spawned_turtles[0]) < 0.05:
+                self.__publisher_turtle_kill()
+            else:
+                cmd_vel = Twist()
 
-        # Count direction -> set new angular velocity -> reach proper direction -> full speed
+                # Count direction -> set new angular velocity -> reach proper direction -> full speed
+                # x and y vectors
+                # vectors proportions
+                # if x vectors have the same value -> if vel y > dest y -> turn right else turn left
 
-        self.__publisher_velocity.publish(cmd_vel)
+                vel_vec_x = turtle_postion.x - self.__prev_x
+                vel_vec_y = turtle_postion.y - self.__prev_y
+
+                dest_vec_x = self.__spawned_turtles[0].x - turtle_postion.x
+                dest_vec_y = self.__spawned_turtles[0].y - turtle_postion.y
+
+                self.__publisher_velocity.publish(cmd_vel)
 
     def publish_turtle_killed(self):
         msg = Bool()

@@ -23,8 +23,8 @@ class TurtleSpawnerNode(Node):
         self.__client_spawn = self.create_client(Spawn, "spawn")
         # self.__client_kill = self.create_client(Kill, "kill")
         self.__publisher_spawned_turtle = self.create_publisher(Pose, "spawned_turtle", 10)
-        self.__subscriber_killed_turtle = self.create_subscription(Bool, "killed_turtle", self.callback_subscription_killed_turtle)
-        self.__spawn_timer = self.create_timer(self.__spawn_pace, self.callback_spawn_timer)
+        self.__subscriber_killed_turtle = self.create_subscription(Bool, "killed_turtle", self.callback_subscription_killed_turtle, 10)
+        self.__spawn_timer = self.create_timer(self.__spawn_pace.value, self.callback_spawn_timer)
         # self.__kill_timer = self.create_timer(7.0, self.callback_kill_timer)
 
         random.seed(int(round(time.time())))
