@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# ToDo:
+# Turtle doesn't enter linear speed when moving almost vertically -> increase vectors alignment
+# Turtle cannot decide in which direction should he turn while moving in opposite direction to target -> add one big turn in that case?
+# Change turtle controller to inform about killed turtle's name
+
 import rclpy
 from rclpy.node import Node
 from turtlesim.msg import Pose
@@ -21,7 +26,7 @@ class TurtleSpawnerNode(Node):
         self.__spawned_turtles = []
 
         self.__client_spawn = self.create_client(Spawn, "spawn")
-        # self.__client_kill = self.create_client(Kill, "kill")
+        self.__client_kill = self.create_client(Kill, "kill")
         self.__publisher_spawned_turtle = self.create_publisher(Pose, "spawned_turtle", 10)
         self.__subscriber_killed_turtle = self.create_subscription(Bool, "killed_turtle", self.callback_subscription_killed_turtle, 10)
         self.__spawn_timer = self.create_timer(self.__spawn_pace.value, self.callback_spawn_timer)
