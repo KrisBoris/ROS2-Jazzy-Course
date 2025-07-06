@@ -1,0 +1,47 @@
+{
+  "package_name": "turtlesim_project_interfaces",
+  "output_dir": "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_typesupport_fastrtps_c/turtlesim_project_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces:msg/SpawnedTurtle.idl"
+  ],
+  "ros_interface_dependencies": [
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/action/RotateAbsolute.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/msg/Color.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/msg/Pose.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/Kill.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/SetPen.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/Spawn.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/TeleportAbsolute.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/TeleportRelative.idl",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces/msg/SpawnedTurtle.idl",
+    "/opt/ros/jazzy/share/turtlesim/action/RotateAbsolute.idl",
+    "/opt/ros/jazzy/share/turtlesim/msg/Color.idl",
+    "/opt/ros/jazzy/share/turtlesim/msg/Pose.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/Kill.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/SetPen.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/Spawn.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/TeleportAbsolute.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/TeleportRelative.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl"
+  ]
+}

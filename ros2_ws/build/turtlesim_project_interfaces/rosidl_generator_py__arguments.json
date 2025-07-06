@@ -1,0 +1,52 @@
+{
+  "package_name": "turtlesim_project_interfaces",
+  "output_dir": "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_generator_py/turtlesim_project_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces:msg/SpawnedTurtle.idl"
+  ],
+  "ros_interface_dependencies": [
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/action/RotateAbsolute.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/msg/Color.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/msg/Pose.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/Kill.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/SetPen.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/Spawn.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/TeleportAbsolute.idl",
+    "turtlesim:/opt/ros/jazzy/share/turtlesim/srv/TeleportRelative.idl",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces/msg/SpawnedTurtle.idl",
+    "/opt/ros/jazzy/share/turtlesim/action/RotateAbsolute.idl",
+    "/opt/ros/jazzy/share/turtlesim/msg/Color.idl",
+    "/opt/ros/jazzy/share/turtlesim/msg/Pose.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/Kill.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/SetPen.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/Spawn.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/TeleportAbsolute.idl",
+    "/opt/ros/jazzy/share/turtlesim/srv/TeleportRelative.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl"
+  ]
+}

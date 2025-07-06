@@ -1,0 +1,12 @@
+{
+  "package_name": "turtlesim_project_interfaces",
+  "output_dir": "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_generator_type_description/turtlesim_project_interfaces",
+  "idl_tuples": [
+    "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces:msg/SpawnedTurtle.idl"
+  ],
+  "include_paths": [
+    "turtlesim:/opt/ros/jazzy/share/turtlesim",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs"
+  ]
+}

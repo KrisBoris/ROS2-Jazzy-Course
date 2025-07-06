@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlesim_project_interfaces/msg/SpawnedTurtle.msg
+// generated code does not contain a copyright notice
+
+#include "turtlesim/msg/Pose.idl"
+
+module turtlesim_project_interfaces {
+  module msg {
+    struct SpawnedTurtle {
+      string name;
+
+      turtlesim::msg::Pose pose;
+    };
+  };
+};

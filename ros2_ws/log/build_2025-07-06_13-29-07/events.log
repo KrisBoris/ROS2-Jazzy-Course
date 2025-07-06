@@ -1,0 +1,371 @@
+[0.000000] (-) TimerEvent: {}
+[0.001605] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001834] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001879] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.002074] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.002110] (-) JobUnselected: {'identifier': 'turtlesim_project'}
+[0.002137] (turtlesim_project_interfaces) JobQueued: {'identifier': 'turtlesim_project_interfaces', 'dependencies': OrderedDict()}
+[0.002159] (turtlesim_project_interfaces) JobStarted: {'identifier': 'turtlesim_project_interfaces'}
+[0.026470] (turtlesim_project_interfaces) JobProgress: {'identifier': 'turtlesim_project_interfaces', 'progress': 'cmake'}
+[0.028524] (turtlesim_project_interfaces) JobProgress: {'identifier': 'turtlesim_project_interfaces', 'progress': 'build'}
+[0.030903] (turtlesim_project_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2870-0-kros_TIME808194', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_interfaces/msg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2633', 'SYSTEMD_EXEC_PID': '2870', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3683', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:19540', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2836,unix/kros:/tmp/.ICE-unix/2836', 'INVOCATION_ID': '3c7600bc89e848bdbb668de76709d616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CXQY82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e0828325-14d5-4213-8e86-55cd6c6a83ca', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.099601] (-) TimerEvent: {}
+[0.138671] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199953] (-) TimerEvent: {}
+[0.303503] (-) TimerEvent: {}
+[0.405381] (-) TimerEvent: {}
+[0.506199] (-) TimerEvent: {}
+[0.607229] (-) TimerEvent: {}
+[0.647451] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.707403] (-) TimerEvent: {}
+[0.782742] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.810416] (-) TimerEvent: {}
+[0.828923] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.886649] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.911018] (-) TimerEvent: {}
+[0.951339] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.011766] (-) TimerEvent: {}
+[1.114555] (-) TimerEvent: {}
+[1.214894] (-) TimerEvent: {}
+[1.245568] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.251898] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.315803] (-) TimerEvent: {}
+[1.419480] (-) TimerEvent: {}
+[1.520724] (-) TimerEvent: {}
+[1.552897] (turtlesim_project_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.621157] (-) TimerEvent: {}
+[1.724742] (-) TimerEvent: {}
+[1.825977] (-) TimerEvent: {}
+[1.926479] (-) TimerEvent: {}
+[1.930678] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[2.026775] (-) TimerEvent: {}
+[2.128752] (-) TimerEvent: {}
+[2.229402] (-) TimerEvent: {}
+[2.243843] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.291846] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.296496] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.329766] (-) TimerEvent: {}
+[2.433867] (-) TimerEvent: {}
+[2.537965] (-) TimerEvent: {}
+[2.642523] (-) TimerEvent: {}
+[2.745870] (-) TimerEvent: {}
+[2.847513] (-) TimerEvent: {}
+[2.948101] (-) TimerEvent: {}
+[3.049703] (-) TimerEvent: {}
+[3.151240] (-) TimerEvent: {}
+[3.180128] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.253357] (-) TimerEvent: {}
+[3.353857] (-) TimerEvent: {}
+[3.454436] (-) TimerEvent: {}
+[3.554949] (-) TimerEvent: {}
+[3.656130] (-) TimerEvent: {}
+[3.756745] (-) TimerEvent: {}
+[3.827086] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.857267] (-) TimerEvent: {}
+[3.958398] (-) TimerEvent: {}
+[4.058722] (-) TimerEvent: {}
+[4.077980] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.081941] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.159491] (-) TimerEvent: {}
+[4.261098] (-) TimerEvent: {}
+[4.364794] (-) TimerEvent: {}
+[4.468060] (-) TimerEvent: {}
+[4.571160] (-) TimerEvent: {}
+[4.674484] (-) TimerEvent: {}
+[4.777722] (-) TimerEvent: {}
+[4.881085] (-) TimerEvent: {}
+[4.959880] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.981621] (-) TimerEvent: {}
+[5.037223] (turtlesim_project_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.040123] (turtlesim_project_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.052320] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Configuring done (4.9s)\n'}
+[5.083160] (-) TimerEvent: {}
+[5.187320] (-) TimerEvent: {}
+[5.221350] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.288104] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces\n'}
+[5.288571] (-) TimerEvent: {}
+[5.389180] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.389622] (-) TimerEvent: {}
+[5.416791] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim_project_interfaces\n'}
+[5.490464] (-) TimerEvent: {}
+[5.591091] (-) TimerEvent: {}
+[5.691578] (-) TimerEvent: {}
+[5.792256] (-) TimerEvent: {}
+[5.892756] (-) TimerEvent: {}
+[5.993155] (-) TimerEvent: {}
+[6.093657] (-) TimerEvent: {}
+[6.098739] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  2%] Built target turtlesim_project_interfaces__rosidl_generator_type_description\n'}
+[6.122909] (turtlesim_project_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.133273] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.155320] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.190529] (turtlesim_project_interfaces) StdoutLine: {'line': b'writing turtlesim_project_interfaces.egg-info/PKG-INFO\n'}
+[6.191083] (turtlesim_project_interfaces) StdoutLine: {'line': b'writing dependency_links to turtlesim_project_interfaces.egg-info/dependency_links.txt\n'}
+[6.191423] (turtlesim_project_interfaces) StdoutLine: {'line': b'writing top-level names to turtlesim_project_interfaces.egg-info/top_level.txt\n'}
+[6.194167] (-) TimerEvent: {}
+[6.294791] (-) TimerEvent: {}
+[6.388877] (turtlesim_project_interfaces) StdoutLine: {'line': b"reading manifest file 'turtlesim_project_interfaces.egg-info/SOURCES.txt'\n"}
+[6.392860] (turtlesim_project_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlesim_project_interfaces.egg-info/SOURCES.txt'\n"}
+[6.394927] (-) TimerEvent: {}
+[6.476720] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_turtlesim_project_interfaces_egg\n'}
+[6.495422] (-) TimerEvent: {}
+[6.601478] (-) TimerEvent: {}
+[6.702273] (-) TimerEvent: {}
+[6.807741] (-) TimerEvent: {}
+[6.914109] (-) TimerEvent: {}
+[7.016755] (-) TimerEvent: {}
+[7.031837] (turtlesim_project_interfaces) StdoutLine: {'line': b'[  8%] Built target turtlesim_project_interfaces__cpp\n'}
+[7.117632] (-) TimerEvent: {}
+[7.156813] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.c.o\x1b[0m\n'}
+[7.157156] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_project_interfaces/msg/detail/spawned_turtle__description.c.o\x1b[0m\n'}
+[7.157392] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_project_interfaces/msg/detail/spawned_turtle__functions.c.o\x1b[0m\n'}
+[7.217820] (-) TimerEvent: {}
+[7.304279] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_project_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.317936] (-) TimerEvent: {}
+[7.409259] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 20%] Built target turtlesim_project_interfaces__rosidl_generator_c\n'}
+[7.420339] (-) TimerEvent: {}
+[7.437837] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.441543] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.442546] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.451537] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.522811] (-) TimerEvent: {}
+[7.623396] (-) TimerEvent: {}
+[7.723985] (-) TimerEvent: {}
+[7.824491] (-) TimerEvent: {}
+[7.928968] (-) TimerEvent: {}
+[8.029524] (-) TimerEvent: {}
+[8.132597] (-) TimerEvent: {}
+[8.235727] (-) TimerEvent: {}
+[8.336715] (-) TimerEvent: {}
+[8.399562] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_project_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_project_interfaces/msg/spawned_turtle__type_support.cpp.o\x1b[0m\n'}
+[8.437262] (-) TimerEvent: {}
+[8.524706] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_project_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support_c.cpp.o\x1b[0m\n'}
+[8.537434] (-) TimerEvent: {}
+[8.547885] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.c.o\x1b[0m\n'}
+[8.585263] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_project_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_project_interfaces/msg/detail/dds_fastrtps/spawned_turtle__type_support.cpp.o\x1b[0m\n'}
+[8.637606] (-) TimerEvent: {}
+[8.691385] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_project_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.737975] (-) TimerEvent: {}
+[8.814947] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 47%] Built target turtlesim_project_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.840487] (-) TimerEvent: {}
+[8.858455] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.940651] (-) TimerEvent: {}
+[9.041152] (-) TimerEvent: {}
+[9.144639] (-) TimerEvent: {}
+[9.248442] (-) TimerEvent: {}
+[9.349681] (-) TimerEvent: {}
+[9.450298] (-) TimerEvent: {}
+[9.468736] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_project_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.550471] (-) TimerEvent: {}
+[9.624724] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 52%] Built target turtlesim_project_interfaces__rosidl_typesupport_cpp\n'}
+[9.651823] (-) TimerEvent: {}
+[9.655874] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.751983] (-) TimerEvent: {}
+[9.845937] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_project_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_project_interfaces/msg/spawned_turtle__type_support.cpp.o\x1b[0m\n'}
+[9.852432] (-) TimerEvent: {}
+[9.955541] (-) TimerEvent: {}
+[10.020867] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_project_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.042060] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_project_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.057857] (-) TimerEvent: {}
+[10.158631] (-) TimerEvent: {}
+[10.184733] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 64%] Built target turtlesim_project_interfaces__rosidl_typesupport_c\n'}
+[10.259431] (-) TimerEvent: {}
+[10.297629] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 64%] Built target turtlesim_project_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.298480] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_project_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.359984] (-) TimerEvent: {}
+[10.460770] (-) TimerEvent: {}
+[10.550345] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 67%] Built target turtlesim_project_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.561093] (-) TimerEvent: {}
+[10.604239] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_project_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.cpp.o\x1b[0m\n'}
+[10.661730] (-) TimerEvent: {}
+[10.762233] (-) TimerEvent: {}
+[10.862608] (-) TimerEvent: {}
+[10.963092] (-) TimerEvent: {}
+[11.063483] (-) TimerEvent: {}
+[11.164097] (-) TimerEvent: {}
+[11.264775] (-) TimerEvent: {}
+[11.365336] (-) TimerEvent: {}
+[11.465791] (-) TimerEvent: {}
+[11.507153] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_project_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.567478] (-) TimerEvent: {}
+[11.667992] (-) TimerEvent: {}
+[11.711047] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 73%] Built target turtlesim_project_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.762765] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 73%] Built target turtlesim_project_interfaces\n'}
+[11.768486] (-) TimerEvent: {}
+[11.823353] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.869270] (-) TimerEvent: {}
+[11.970659] (-) TimerEvent: {}
+[12.075257] (-) TimerEvent: {}
+[12.179734] (-) TimerEvent: {}
+[12.286003] (-) TimerEvent: {}
+[12.391035] (-) TimerEvent: {}
+[12.495916] (-) TimerEvent: {}
+[12.601518] (-) TimerEvent: {}
+[12.705523] (-) TimerEvent: {}
+[12.809914] (-) TimerEvent: {}
+[12.834628] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 76%] Built target turtlesim_project_interfaces__py\n'}
+[12.900305] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_project_interfaces/msg/_spawned_turtle_s.c.o\x1b[0m\n'}
+[12.910367] (-) TimerEvent: {}
+[13.015939] (-) TimerEvent: {}
+[13.117079] (-) TimerEvent: {}
+[13.217687] (-) TimerEvent: {}
+[13.303121] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_project_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.318168] (-) TimerEvent: {}
+[13.421502] (-) TimerEvent: {}
+[13.448793] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 82%] Built target turtlesim_project_interfaces__rosidl_generator_py\n'}
+[13.509360] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlesim_project_interfaces/_turtlesim_project_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.509922] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlesim_project_interfaces/_turtlesim_project_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.510340] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim_project_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlesim_project_interfaces/_turtlesim_project_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.521661] (-) TimerEvent: {}
+[13.622839] (-) TimerEvent: {}
+[13.726739] (-) TimerEvent: {}
+[13.830172] (-) TimerEvent: {}
+[13.855482] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.856185] (turtlesim_project_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.879282] (turtlesim_project_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.930527] (-) TimerEvent: {}
+[13.949154] (turtlesim_project_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_project_interfaces_s__rosidl_typesupport_c\n'}
+[13.951774] (turtlesim_project_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_project_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[13.983943] (turtlesim_project_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_project_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[14.012288] (turtlesim_project_interfaces) CommandEnded: {'returncode': 0}
+[14.014075] (turtlesim_project_interfaces) JobProgress: {'identifier': 'turtlesim_project_interfaces', 'progress': 'install'}
+[14.031166] (-) TimerEvent: {}
+[14.039739] (turtlesim_project_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2870-0-kros_TIME808194', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_interfaces/msg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2633', 'SYSTEMD_EXEC_PID': '2870', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3683', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:19540', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2836,unix/kros:/tmp/.ICE-unix/2836', 'INVOCATION_ID': '3c7600bc89e848bdbb668de76709d616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CXQY82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e0828325-14d5-4213-8e86-55cd6c6a83ca', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[14.061824] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.062210] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlesim_project_interfaces\n'}
+[14.062462] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/msg/SpawnedTurtle.json\n'}
+[14.062838] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces\n'}
+[14.063065] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg\n'}
+[14.063298] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/spawned_turtle.h\n'}
+[14.063506] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail\n'}
+[14.063893] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__functions.c\n'}
+[14.064113] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__description.c\n'}
+[14.064357] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__struct.h\n'}
+[14.064699] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__functions.h\n'}
+[14.064936] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.c\n'}
+[14.065198] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.h\n'}
+[14.065464] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.065816] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/library_path.sh\n'}
+[14.066039] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/library_path.dsv\n'}
+[14.066567] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_generator_c.so\n'}
+[14.066851] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.067062] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces\n'}
+[14.067472] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg\n'}
+[14.067749] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail\n'}
+[14.068125] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[14.068347] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.068823] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.069218] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.069563] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces\n'}
+[14.069872] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg\n'}
+[14.070207] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail\n'}
+[14.070516] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__traits.hpp\n'}
+[14.070851] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__struct.hpp\n'}
+[14.071090] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.hpp\n'}
+[14.071380] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__builder.hpp\n'}
+[14.071589] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/spawned_turtle.hpp\n'}
+[14.071980] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.072379] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces\n'}
+[14.072728] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg\n'}
+[14.073023] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail\n'}
+[14.073316] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.073527] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/dds_fastrtps\n'}
+[14.073786] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.074110] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.074392] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.074602] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces\n'}
+[14.074986] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg\n'}
+[14.075265] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail\n'}
+[14.075574] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__rosidl_typesupport_introspection_c.h\n'}
+[14.075885] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.c\n'}
+[14.076168] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.076376] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.076889] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.077367] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_c.so\n'}
+[14.078278] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.078575] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces\n'}
+[14.078988] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg\n'}
+[14.079247] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail\n'}
+[14.079467] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__type_support.cpp\n'}
+[14.079774] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/include/turtlesim_project_interfaces/turtlesim_project_interfaces/msg/detail/spawned_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.080181] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.081110] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.081571] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.083817] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.083952] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/pythonpath.sh\n'}
+[14.084040] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/pythonpath.dsv\n'}
+[14.084119] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces-0.0.0-py3.12.egg-info\n'}
+[14.084199] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.084285] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.084364] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.084491] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.084583] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces\n'}
+[14.084890] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/_turtlesim_project_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.085201] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/__init__.py\n'}
+[14.085502] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.085873] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/_turtlesim_project_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.086168] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg\n'}
+[14.086827] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg/__init__.py\n'}
+[14.087067] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg/_spawned_turtle_s.c\n'}
+[14.087355] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg/_spawned_turtle.py\n'}
+[14.087561] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.087933] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/_turtlesim_project_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.088221] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.131658] (-) TimerEvent: {}
+[14.203751] (turtlesim_project_interfaces) StdoutLine: {'line': b"Listing '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces'...\n"}
+[14.204069] (turtlesim_project_interfaces) StdoutLine: {'line': b"Compiling '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/__init__.py'...\n"}
+[14.204287] (turtlesim_project_interfaces) StdoutLine: {'line': b"Listing '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg'...\n"}
+[14.204538] (turtlesim_project_interfaces) StdoutLine: {'line': b"Compiling '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg/__init__.py'...\n"}
+[14.204819] (turtlesim_project_interfaces) StdoutLine: {'line': b"Compiling '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/msg/_spawned_turtle.py'...\n"}
+[14.223705] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.224182] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.224418] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.226774] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.227023] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.227307] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages/turtlesim_project_interfaces/turtlesim_project_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[14.227725] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_generator_py.so\n'}
+[14.228136] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/libturtlesim_project_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.228418] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/msg/SpawnedTurtle.idl\n'}
+[14.228788] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/msg/SpawnedTurtle.msg\n'}
+[14.229256] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlesim_project_interfaces\n'}
+[14.229699] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlesim_project_interfaces\n'}
+[14.230017] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/ament_prefix_path.sh\n'}
+[14.230398] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.230711] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/path.sh\n'}
+[14.231046] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/environment/path.dsv\n'}
+[14.231358] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/local_setup.bash\n'}
+[14.231791] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/local_setup.sh\n'}
+[14.231903] (-) TimerEvent: {}
+[14.232026] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/local_setup.zsh\n'}
+[14.232142] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/local_setup.dsv\n'}
+[14.232306] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/package.dsv\n'}
+[14.232392] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/ament_index/resource_index/packages/turtlesim_project_interfaces\n'}
+[14.232472] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.232578] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.232955] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.233199] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.233517] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.233758] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.234087] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.234208] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.234370] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.234549] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.234804] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.235121] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.235439] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.235602] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.235963] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.236278] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.236476] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/export_turtlesim_project_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.236685] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.237054] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.237311] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.237744] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.237865] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.237977] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.238099] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.241216] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfacesConfig.cmake\n'}
+[14.241991] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/cmake/turtlesim_project_interfacesConfig-version.cmake\n'}
+[14.242291] (turtlesim_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/share/turtlesim_project_interfaces/package.xml\n'}
+[14.249526] (turtlesim_project_interfaces) CommandEnded: {'returncode': 0}
+[14.307707] (turtlesim_project_interfaces) JobEnded: {'identifier': 'turtlesim_project_interfaces', 'rc': 0}
+[14.308748] (-) EventReactorShutdown: {}

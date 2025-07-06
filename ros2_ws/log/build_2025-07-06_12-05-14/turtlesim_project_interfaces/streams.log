@@ -1,0 +1,74 @@
+[0.045s] Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_interfaces -DCMAKE_INSTALL_PREFIX=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces
+[0.357s] -- The C compiler identification is GNU 13.3.0
+[0.796s] -- The CXX compiler identification is GNU 13.3.0
+[0.908s] -- Detecting C compiler ABI info
+[1.334s] -- Detecting C compiler ABI info - done
+[1.392s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.394s] -- Detecting C compile features
+[1.396s] -- Detecting C compile features - done
+[1.480s] -- Detecting CXX compiler ABI info
+[1.929s] -- Detecting CXX compiler ABI info - done
+[2.000s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.002s] -- Detecting CXX compile features
+[2.002s] -- Detecting CXX compile features - done
+[2.019s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.718s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.313s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.610s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.720s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.635s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.666s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.148s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.257s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.383s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.942s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[6.046s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.067s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.950s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[7.950s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[7.952s]   turtlesim_project_interfaces --arguments-file
+[7.952s]   /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter__arguments__turtlesim_project_interfaces.json
+[7.953s]   --output-dir
+[7.953s]   /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces
+[7.953s]   --output-file
+[7.953s]   /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces/rosidl_adapter/turtlesim_project_interfaces.idls)
+[7.954s]   returned error code 1:
+[7.954s] 
+[7.954s]   Error processing 'turtlesim/msg/Pose pose' of
+[7.955s]   'turtlesim_project_interfaces/SpawnedTurtle': 'turtlesim/msg/Pose'
+[7.955s] 
+[7.955s]   Traceback (most recent call last):
+[7.956s] 
+[7.956s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[7.956s]     File "<frozen runpy>", line 88, in _run_code
+[7.957s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[7.957s]       sys.exit(main())
+[7.958s]                ^^^^^^
+[7.958s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[7.958s]       abs_idl_file = convert_to_idl(
+[7.959s]                      ^^^^^^^^^^^^^^^
+[7.959s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[7.959s]       return convert_msg_to_idl(
+[7.960s]              ^^^^^^^^^^^^^^^^^^^
+[7.960s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[7.960s]       msg = parse_message_string(package_name, input_file.stem, content)
+[7.961s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[7.961s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[7.961s]       Type(type_string, context_package_name=pkg_name),
+[7.961s]       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[7.962s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[7.962s]       super(Type, self).__init__(
+[7.962s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 191, in __init__
+[7.963s]       raise InvalidResourceName(type_string)
+[7.963s] 
+[7.963s]   rosidl_adapter.parser.InvalidResourceName: turtlesim/msg/Pose
+[7.963s] 
+[7.964s] Call Stack (most recent call first):
+[7.964s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[7.964s] -- Configuring incomplete, errors occurred!
+[7.965s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[7.965s] 
+[7.965s] [0m
+[8.006s] Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_interfaces -DCMAKE_INSTALL_PREFIX=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces

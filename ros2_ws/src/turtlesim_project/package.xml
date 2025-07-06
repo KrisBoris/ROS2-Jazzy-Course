@@ -12,6 +12,7 @@
   <depend>random</depend>
   <depend>time</depend>
   <depend>collections</depend>
+  <depend>turtlesim_project_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
