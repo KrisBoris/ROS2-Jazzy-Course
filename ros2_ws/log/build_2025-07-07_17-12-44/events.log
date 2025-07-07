@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.001539] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001675] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001753] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001825] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001893] (-) JobUnselected: {'identifier': 'turtlesim_project'}
+[0.001960] (-) JobUnselected: {'identifier': 'turtlesim_project_interfaces'}
+[0.002033] (turtlesim_project_cpp) JobQueued: {'identifier': 'turtlesim_project_cpp', 'dependencies': OrderedDict({'turtlesim_project_interfaces': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces'})}
+[0.002120] (turtlesim_project_cpp) JobStarted: {'identifier': 'turtlesim_project_cpp'}
+[0.045039] (turtlesim_project_cpp) JobProgress: {'identifier': 'turtlesim_project_cpp', 'progress': 'cmake'}
+[0.050914] (turtlesim_project_cpp) JobProgress: {'identifier': 'turtlesim_project_cpp', 'progress': 'build'}
+[0.051126] (turtlesim_project_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp', '--', '-j4', '-l4'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2692-0-kros_TIME106425', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2692', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3445', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:15024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2651,unix/kros:/tmp/.ICE-unix/2651', 'INVOCATION_ID': '749d4cd83b7c4b488466de0ad57c5d72', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4AAE92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f58124a7-596a-4ab4-8743-3599e784eb49', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.098505] (-) TimerEvent: {}
+[0.199679] (-) TimerEvent: {}
+[0.300871] (-) TimerEvent: {}
+[0.401987] (-) TimerEvent: {}
+[0.493998] (turtlesim_project_cpp) StdoutLine: {'line': b'[ 50%] Built target turtle_controller\n'}
+[0.502722] (-) TimerEvent: {}
+[0.506542] (turtlesim_project_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o\x1b[0m\n'}
+[0.602958] (-) TimerEvent: {}
+[0.704872] (-) TimerEvent: {}
+[0.808134] (-) TimerEvent: {}
+[0.910534] (-) TimerEvent: {}
+[1.011505] (-) TimerEvent: {}
+[1.114524] (-) TimerEvent: {}
+[1.219518] (-) TimerEvent: {}
+[1.320262] (-) TimerEvent: {}
+[1.420912] (-) TimerEvent: {}
+[1.525648] (-) TimerEvent: {}
+[1.626712] (-) TimerEvent: {}
+[1.729859] (-) TimerEvent: {}
+[1.831900] (-) TimerEvent: {}
+[1.937510] (-) TimerEvent: {}
+[2.043265] (-) TimerEvent: {}
+[2.145666] (-) TimerEvent: {}
+[2.249510] (-) TimerEvent: {}
+[2.350511] (-) TimerEvent: {}
+[2.452791] (-) TimerEvent: {}
+[2.557544] (-) TimerEvent: {}
+[2.659705] (-) TimerEvent: {}
+[2.764599] (-) TimerEvent: {}
+[2.867134] (-) TimerEvent: {}
+[2.967832] (-) TimerEvent: {}
+[3.071749] (-) TimerEvent: {}
+[3.172345] (-) TimerEvent: {}
+[3.273642] (-) TimerEvent: {}
+[3.374324] (-) TimerEvent: {}
+[3.478915] (-) TimerEvent: {}
+[3.583508] (-) TimerEvent: {}
+[3.684044] (-) TimerEvent: {}
+[3.788493] (-) TimerEvent: {}
+[3.889010] (-) TimerEvent: {}
+[3.989679] (-) TimerEvent: {}
+[4.090605] (-) TimerEvent: {}
+[4.192627] (-) TimerEvent: {}
+[4.294785] (-) TimerEvent: {}
+[4.397499] (-) TimerEvent: {}
+[4.498037] (-) TimerEvent: {}
+[4.598654] (-) TimerEvent: {}
+[4.701093] (-) TimerEvent: {}
+[4.802138] (-) TimerEvent: {}
+[4.905073] (-) TimerEvent: {}
+[5.005713] (-) TimerEvent: {}
+[5.106628] (-) TimerEvent: {}
+[5.207334] (-) TimerEvent: {}
+[5.308226] (-) TimerEvent: {}
+[5.410545] (-) TimerEvent: {}
+[5.515487] (-) TimerEvent: {}
+[5.616056] (-) TimerEvent: {}
+[5.717194] (-) TimerEvent: {}
+[5.817715] (-) TimerEvent: {}
+[5.918232] (-) TimerEvent: {}
+[6.018821] (-) TimerEvent: {}
+[6.119343] (-) TimerEvent: {}
+[6.219946] (-) TimerEvent: {}
+[6.321071] (-) TimerEvent: {}
+[6.421655] (-) TimerEvent: {}
+[6.522729] (-) TimerEvent: {}
+[6.623268] (-) TimerEvent: {}
+[6.723919] (-) TimerEvent: {}
+[6.825025] (-) TimerEvent: {}
+[6.926087] (-) TimerEvent: {}
+[7.026655] (-) TimerEvent: {}
+[7.127816] (-) TimerEvent: {}
+[7.228312] (-) TimerEvent: {}
+[7.329037] (-) TimerEvent: {}
+[7.429730] (-) TimerEvent: {}
+[7.530219] (-) TimerEvent: {}
+[7.630941] (-) TimerEvent: {}
+[7.732068] (-) TimerEvent: {}
+[7.833103] (-) TimerEvent: {}
+[7.933635] (-) TimerEvent: {}
+[8.034700] (-) TimerEvent: {}
+[8.135823] (-) TimerEvent: {}
+[8.237073] (-) TimerEvent: {}
+[8.339152] (-) TimerEvent: {}
+[8.439862] (-) TimerEvent: {}
+[8.541096] (-) TimerEvent: {}
+[8.643216] (-) TimerEvent: {}
+[8.745449] (-) TimerEvent: {}
+[8.846145] (-) TimerEvent: {}
+[8.946859] (-) TimerEvent: {}
+[9.048186] (-) TimerEvent: {}
+[9.148683] (-) TimerEvent: {}
+[9.249581] (-) TimerEvent: {}
+[9.350338] (-) TimerEvent: {}
+[9.450921] (-) TimerEvent: {}
+[9.552488] (-) TimerEvent: {}
+[9.652963] (-) TimerEvent: {}
+[9.753874] (-) TimerEvent: {}
+[9.855005] (-) TimerEvent: {}
+[9.955601] (-) TimerEvent: {}
+[10.056561] (-) TimerEvent: {}
+[10.157781] (-) TimerEvent: {}
+[10.258816] (-) TimerEvent: {}
+[10.361493] (-) TimerEvent: {}
+[10.462501] (-) TimerEvent: {}
+[10.563153] (-) TimerEvent: {}
+[10.664654] (-) TimerEvent: {}
+[10.765913] (-) TimerEvent: {}
+[10.870131] (-) TimerEvent: {}
+[10.971435] (-) TimerEvent: {}
+[11.072450] (-) TimerEvent: {}
+[11.173997] (-) TimerEvent: {}
+[11.274902] (-) TimerEvent: {}
+[11.375573] (-) TimerEvent: {}
+[11.479938] (-) TimerEvent: {}
+[11.580588] (-) TimerEvent: {}
+[11.681501] (-) TimerEvent: {}
+[11.782092] (-) TimerEvent: {}
+[11.882700] (-) TimerEvent: {}
+[11.983510] (-) TimerEvent: {}
+[12.084427] (-) TimerEvent: {}
+[12.185121] (-) TimerEvent: {}
+[12.285908] (-) TimerEvent: {}
+[12.390811] (-) TimerEvent: {}
+[12.491926] (-) TimerEvent: {}
+[12.592522] (-) TimerEvent: {}
+[12.693316] (-) TimerEvent: {}
+[12.794270] (-) TimerEvent: {}
+[12.894849] (-) TimerEvent: {}
+[12.995448] (-) TimerEvent: {}
+[13.096163] (-) TimerEvent: {}
+[13.196741] (-) TimerEvent: {}
+[13.297451] (-) TimerEvent: {}
+[13.398318] (-) TimerEvent: {}
+[13.499146] (-) TimerEvent: {}
+[13.599938] (-) TimerEvent: {}
+[13.700478] (-) TimerEvent: {}
+[13.801057] (-) TimerEvent: {}
+[13.902718] (-) TimerEvent: {}
+[14.003392] (-) TimerEvent: {}
+[14.103781] (-) TimerEvent: {}
+[14.204752] (-) TimerEvent: {}
+[14.305465] (-) TimerEvent: {}
+[14.406604] (-) TimerEvent: {}
+[14.507844] (-) TimerEvent: {}
+[14.608846] (-) TimerEvent: {}
+[14.710067] (-) TimerEvent: {}
+[14.810780] (-) TimerEvent: {}
+[14.911443] (-) TimerEvent: {}
+[15.012058] (-) TimerEvent: {}
+[15.112730] (-) TimerEvent: {}
+[15.214316] (-) TimerEvent: {}
+[15.315426] (-) TimerEvent: {}
+[15.416499] (-) TimerEvent: {}
+[15.517553] (-) TimerEvent: {}
+[15.618399] (-) TimerEvent: {}
+[15.718961] (-) TimerEvent: {}
+[15.819910] (-) TimerEvent: {}
+[15.921032] (-) TimerEvent: {}
+[16.021737] (-) TimerEvent: {}
+[16.122785] (-) TimerEvent: {}
+[16.223638] (-) TimerEvent: {}
+[16.325428] (-) TimerEvent: {}
+[16.426316] (-) TimerEvent: {}
+[16.527456] (-) TimerEvent: {}
+[16.630937] (-) TimerEvent: {}
+[16.732416] (-) TimerEvent: {}
+[16.832771] (-) TimerEvent: {}
+[16.934379] (-) TimerEvent: {}
+[17.035630] (-) TimerEvent: {}
+[17.137261] (-) TimerEvent: {}
+[17.238569] (-) TimerEvent: {}
+[17.339166] (-) TimerEvent: {}
+[17.439961] (-) TimerEvent: {}
+[17.542176] (-) TimerEvent: {}
+[17.643413] (-) TimerEvent: {}
+[17.744400] (-) TimerEvent: {}
+[17.844967] (-) TimerEvent: {}
+[17.945619] (-) TimerEvent: {}
+[18.046198] (-) TimerEvent: {}
+[18.147176] (-) TimerEvent: {}
+[18.248133] (-) TimerEvent: {}
+[18.349211] (-) TimerEvent: {}
+[18.450061] (-) TimerEvent: {}
+[18.550975] (-) TimerEvent: {}
+[18.652454] (-) TimerEvent: {}
+[18.754074] (-) TimerEvent: {}
+[18.855575] (-) TimerEvent: {}
+[18.956936] (-) TimerEvent: {}
+[19.058125] (-) TimerEvent: {}
+[19.159960] (-) TimerEvent: {}
+[19.260740] (-) TimerEvent: {}
+[19.362035] (-) TimerEvent: {}
+[19.463598] (-) TimerEvent: {}
+[19.564829] (-) TimerEvent: {}
+[19.667535] (-) TimerEvent: {}
+[19.768593] (-) TimerEvent: {}
+[19.869220] (-) TimerEvent: {}
+[19.970360] (-) TimerEvent: {}
+[20.071070] (-) TimerEvent: {}
+[20.172306] (-) TimerEvent: {}
+[20.273850] (-) TimerEvent: {}
+[20.374367] (-) TimerEvent: {}
+[20.478222] (-) TimerEvent: {}
+[20.579131] (-) TimerEvent: {}
+[20.680512] (-) TimerEvent: {}
+[20.781714] (-) TimerEvent: {}
+[20.884572] (-) TimerEvent: {}
+[20.985701] (-) TimerEvent: {}
+[21.087508] (-) TimerEvent: {}
+[21.189919] (-) TimerEvent: {}
+[21.292027] (-) TimerEvent: {}
+[21.393167] (-) TimerEvent: {}
+[21.498086] (-) TimerEvent: {}
+[21.599819] (-) TimerEvent: {}
+[21.701531] (-) TimerEvent: {}
+[21.803267] (-) TimerEvent: {}
+[21.903855] (-) TimerEvent: {}
+[22.004820] (-) TimerEvent: {}
+[22.105454] (-) TimerEvent: {}
+[22.206786] (-) TimerEvent: {}
+[22.307827] (-) TimerEvent: {}
+[22.409969] (-) TimerEvent: {}
+[22.510586] (-) TimerEvent: {}
+[22.611335] (-) TimerEvent: {}
+[22.712438] (-) TimerEvent: {}
+[22.813653] (-) TimerEvent: {}
+[22.914682] (-) TimerEvent: {}
+[23.015672] (-) TimerEvent: {}
+[23.116859] (-) TimerEvent: {}
+[23.217932] (-) TimerEvent: {}
+[23.319105] (-) TimerEvent: {}
+[23.420283] (-) TimerEvent: {}
+[23.521233] (-) TimerEvent: {}
+[23.622721] (-) TimerEvent: {}
+[23.723833] (-) TimerEvent: {}
+[23.824481] (-) TimerEvent: {}
+[23.926062] (-) TimerEvent: {}
+[24.027668] (-) TimerEvent: {}
+[24.128154] (-) TimerEvent: {}
+[24.229264] (-) TimerEvent: {}
+[24.330527] (-) TimerEvent: {}
+[24.431693] (-) TimerEvent: {}
+[24.532912] (-) TimerEvent: {}
+[24.633598] (-) TimerEvent: {}
+[24.734767] (-) TimerEvent: {}
+[24.836327] (-) TimerEvent: {}
+[24.937413] (-) TimerEvent: {}
+[25.038439] (-) TimerEvent: {}
+[25.139850] (-) TimerEvent: {}
+[25.240483] (-) TimerEvent: {}
+[25.341927] (-) TimerEvent: {}
+[25.442475] (-) TimerEvent: {}
+[25.544193] (-) TimerEvent: {}
+[25.646034] (-) TimerEvent: {}
+[25.747831] (-) TimerEvent: {}
+[25.849465] (-) TimerEvent: {}
+[25.951144] (-) TimerEvent: {}
+[26.052328] (-) TimerEvent: {}
+[26.153057] (-) TimerEvent: {}
+[26.253641] (-) TimerEvent: {}
+[26.355240] (-) TimerEvent: {}
+[26.455730] (-) TimerEvent: {}
+[26.557053] (-) TimerEvent: {}
+[26.657660] (-) TimerEvent: {}
+[26.758210] (-) TimerEvent: {}
+[26.859289] (-) TimerEvent: {}
+[26.960497] (-) TimerEvent: {}
+[27.062135] (-) TimerEvent: {}
+[27.163650] (-) TimerEvent: {}
+[27.265710] (-) TimerEvent: {}
+[27.369278] (-) TimerEvent: {}
+[27.469915] (-) TimerEvent: {}
+[27.570500] (-) TimerEvent: {}
+[27.671130] (-) TimerEvent: {}
+[27.771663] (-) TimerEvent: {}
+[27.872294] (-) TimerEvent: {}
+[27.972877] (-) TimerEvent: {}
+[28.073546] (-) TimerEvent: {}
+[28.174194] (-) TimerEvent: {}
+[28.275348] (-) TimerEvent: {}
+[28.376619] (-) TimerEvent: {}
+[28.477455] (-) TimerEvent: {}
+[28.577887] (-) TimerEvent: {}
+[28.678790] (-) TimerEvent: {}
+[28.779487] (-) TimerEvent: {}
+[28.880857] (-) TimerEvent: {}
+[28.982646] (-) TimerEvent: {}
+[29.084796] (-) TimerEvent: {}
+[29.185498] (-) TimerEvent: {}
+[29.285936] (-) TimerEvent: {}
+[29.386943] (-) TimerEvent: {}
+[29.487688] (-) TimerEvent: {}
+[29.588745] (-) TimerEvent: {}
+[29.689406] (-) TimerEvent: {}
+[29.790548] (-) TimerEvent: {}
+[29.891079] (-) TimerEvent: {}
+[29.992678] (-) TimerEvent: {}
+[30.093841] (-) TimerEvent: {}
+[30.194299] (-) TimerEvent: {}
+[30.294924] (-) TimerEvent: {}
+[30.395419] (-) TimerEvent: {}
+[30.496428] (-) TimerEvent: {}
+[30.597077] (-) TimerEvent: {}
+[30.698402] (-) TimerEvent: {}
+[30.799475] (-) TimerEvent: {}
+[30.900646] (-) TimerEvent: {}
+[31.003535] (-) TimerEvent: {}
+[31.104221] (-) TimerEvent: {}
+[31.204821] (-) TimerEvent: {}
+[31.305988] (-) TimerEvent: {}
+[31.406487] (-) TimerEvent: {}
+[31.506979] (-) TimerEvent: {}
+[31.514597] (turtlesim_project_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_spawner\x1b[0m\n'}
+[31.607654] (-) TimerEvent: {}
+[31.708744] (-) TimerEvent: {}
+[31.809819] (-) TimerEvent: {}
+[31.910654] (-) TimerEvent: {}
+[32.012155] (-) TimerEvent: {}
+[32.113657] (-) TimerEvent: {}
+[32.214241] (-) TimerEvent: {}
+[32.314876] (-) TimerEvent: {}
+[32.415856] (-) TimerEvent: {}
+[32.518304] (-) TimerEvent: {}
+[32.619679] (-) TimerEvent: {}
+[32.717967] (turtlesim_project_cpp) StdoutLine: {'line': b'[100%] Built target turtle_spawner\n'}
+[32.720228] (-) TimerEvent: {}
+[32.744711] (turtlesim_project_cpp) CommandEnded: {'returncode': 0}
+[32.746386] (turtlesim_project_cpp) JobProgress: {'identifier': 'turtlesim_project_cpp', 'progress': 'install'}
+[32.770429] (turtlesim_project_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp'], 'cwd': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2692-0-kros_TIME106425', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/k', 'OLDPWD': '/home/k', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2692', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3445', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'k', 'JOURNAL_STREAM': '9:15024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kros:@/tmp/.ICE-unix/2651,unix/kros:/tmp/.ICE-unix/2651', 'INVOCATION_ID': '749d4cd83b7c4b488466de0ad57c5d72', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4AAE92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f58124a7-596a-4ab4-8743-3599e784eb49', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[32.792663] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.793614] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/turtlesim_project_cpp/turtle_spawner\n'}
+[32.807670] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/turtlesim_project_cpp/turtle_spawner" to ""\n'}
+[32.807875] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/turtlesim_project_cpp/turtle_controller\n'}
+[32.808621] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/ament_index/resource_index/package_run_dependencies/turtlesim_project_cpp\n'}
+[32.808940] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/ament_index/resource_index/parent_prefix_path/turtlesim_project_cpp\n'}
+[32.809173] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/environment/ament_prefix_path.sh\n'}
+[32.810020] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/environment/ament_prefix_path.dsv\n'}
+[32.810269] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/environment/path.sh\n'}
+[32.810711] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/environment/path.dsv\n'}
+[32.811017] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/local_setup.bash\n'}
+[32.811322] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/local_setup.sh\n'}
+[32.811684] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/local_setup.zsh\n'}
+[32.811974] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/local_setup.dsv\n'}
+[32.812261] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Installing: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.dsv\n'}
+[32.812660] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/ament_index/resource_index/packages/turtlesim_project_cpp\n'}
+[32.812914] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/cmake/turtlesim_project_cppConfig.cmake\n'}
+[32.813162] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/cmake/turtlesim_project_cppConfig-version.cmake\n'}
+[32.813610] (turtlesim_project_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.xml\n'}
+[32.816711] (turtlesim_project_cpp) CommandEnded: {'returncode': 0}
+[32.822017] (-) TimerEvent: {}
+[32.860699] (turtlesim_project_cpp) JobEnded: {'identifier': 'turtlesim_project_cpp', 'rc': 0}
+[32.861953] (-) EventReactorShutdown: {}

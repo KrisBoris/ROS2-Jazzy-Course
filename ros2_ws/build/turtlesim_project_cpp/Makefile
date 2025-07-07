@@ -197,6 +197,80 @@ turtlesim_project_cpp_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_project_cpp_uninstall.dir/build.make CMakeFiles/turtlesim_project_cpp_uninstall.dir/build
 .PHONY : turtlesim_project_cpp_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named turtle_spawner
+
+# Build rule for target.
+turtle_spawner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_spawner
+.PHONY : turtle_spawner
+
+# fast build rule for target.
+turtle_spawner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/build
+.PHONY : turtle_spawner/fast
+
+#=============================================================================
+# Target rules for targets named turtle_controller
+
+# Build rule for target.
+turtle_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_controller
+.PHONY : turtle_controller
+
+# fast build rule for target.
+turtle_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/build
+.PHONY : turtle_controller/fast
+
+src/turtle_controller.o: src/turtle_controller.cpp.o
+.PHONY : src/turtle_controller.o
+
+# target to build an object file
+src/turtle_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o
+.PHONY : src/turtle_controller.cpp.o
+
+src/turtle_controller.i: src/turtle_controller.cpp.i
+.PHONY : src/turtle_controller.i
+
+# target to preprocess a source file
+src/turtle_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.i
+.PHONY : src/turtle_controller.cpp.i
+
+src/turtle_controller.s: src/turtle_controller.cpp.s
+.PHONY : src/turtle_controller.s
+
+# target to generate assembly for a file
+src/turtle_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.s
+.PHONY : src/turtle_controller.cpp.s
+
+src/turtle_spawner.o: src/turtle_spawner.cpp.o
+.PHONY : src/turtle_spawner.o
+
+# target to build an object file
+src/turtle_spawner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.o
+.PHONY : src/turtle_spawner.cpp.o
+
+src/turtle_spawner.i: src/turtle_spawner.cpp.i
+.PHONY : src/turtle_spawner.i
+
+# target to preprocess a source file
+src/turtle_spawner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.i
+.PHONY : src/turtle_spawner.cpp.i
+
+src/turtle_spawner.s: src/turtle_spawner.cpp.s
+.PHONY : src/turtle_spawner.s
+
+# target to generate assembly for a file
+src/turtle_spawner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/src/turtle_spawner.cpp.s
+.PHONY : src/turtle_spawner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... turtlesim_project_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... turtle_controller"
+	@echo "... turtle_spawner"
+	@echo "... src/turtle_controller.o"
+	@echo "... src/turtle_controller.i"
+	@echo "... src/turtle_controller.s"
+	@echo "... src/turtle_spawner.o"
+	@echo "... src/turtle_spawner.i"
+	@echo "... src/turtle_spawner.s"
 .PHONY : help
 
 

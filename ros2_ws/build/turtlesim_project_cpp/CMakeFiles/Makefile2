@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/r
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/turtle_spawner.dir/all
+all: CMakeFiles/turtle_controller.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +74,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/turtlesim_project_cpp_uninstall.dir/clean
+clean: CMakeFiles/turtle_spawner.dir/clean
+clean: CMakeFiles/turtle_controller.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +129,58 @@ turtlesim_project_cpp_uninstall: CMakeFiles/turtlesim_project_cpp_uninstall.dir/
 CMakeFiles/turtlesim_project_cpp_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_project_cpp_uninstall.dir/build.make CMakeFiles/turtlesim_project_cpp_uninstall.dir/clean
 .PHONY : CMakeFiles/turtlesim_project_cpp_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/turtle_spawner.dir
+
+# All Build rule for target.
+CMakeFiles/turtle_spawner.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp/CMakeFiles --progress-num=3,4 "Built target turtle_spawner"
+.PHONY : CMakeFiles/turtle_spawner.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/turtle_spawner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/turtle_spawner.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/turtle_spawner.dir/rule
+
+# Convenience name for target.
+turtle_spawner: CMakeFiles/turtle_spawner.dir/rule
+.PHONY : turtle_spawner
+
+# clean rule for target.
+CMakeFiles/turtle_spawner.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_spawner.dir/build.make CMakeFiles/turtle_spawner.dir/clean
+.PHONY : CMakeFiles/turtle_spawner.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/turtle_controller.dir
+
+# All Build rule for target.
+CMakeFiles/turtle_controller.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp/CMakeFiles --progress-num=1,2 "Built target turtle_controller"
+.PHONY : CMakeFiles/turtle_controller.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/turtle_controller.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/turtle_controller.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/turtle_controller.dir/rule
+
+# Convenience name for target.
+turtle_controller: CMakeFiles/turtle_controller.dir/rule
+.PHONY : turtle_controller
+
+# clean rule for target.
+CMakeFiles/turtle_controller.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_controller.dir/build.make CMakeFiles/turtle_controller.dir/clean
+.PHONY : CMakeFiles/turtle_controller.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
