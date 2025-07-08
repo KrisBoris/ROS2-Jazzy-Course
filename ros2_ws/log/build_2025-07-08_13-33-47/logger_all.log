@@ -1,0 +1,207 @@
+[0.441s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtlesim_project_cpp']
+[0.441s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtlesim_project_cpp'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7897052981d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x789705215df0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x789705215df0>>, mixin_verb=('build',))
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.593s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.723s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.726s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.729s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extension 'ignore_ament_install'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extensions ['colcon_pkg']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project) by extension 'ros'
+[0.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_project' with type 'ros.ament_python' and name 'turtlesim_project'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extension 'colcon_pkg'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extensions ['colcon_meta']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_cpp) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_project_cpp' with type 'ros.ament_cmake' and name 'turtlesim_project_cpp'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extension 'ignore'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extension 'ignore_ament_install'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extensions ['colcon_pkg']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extension 'colcon_pkg'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extensions ['colcon_meta']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extension 'colcon_meta'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extensions ['ros']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_project_interfaces) by extension 'ros'
+[0.744s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_project_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_project_interfaces'
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_interfaces' in 'src/my_robot_interfaces'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim_project_interfaces' in 'src/turtlesim_project_interfaces'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_cpp_pkg' in 'src/my_cpp_pkg'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_py_pkg' in 'src/my_py_pkg'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim_project' in 'src/turtlesim_project'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_bringup' in 'src/my_robot_bringup'
+[0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install
+[0.834s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'cmake_target' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_project_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.045s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_project_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp', 'merge_install': False, 'path': '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.045s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.048s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_cpp' with build type 'ament_cmake'
+[1.048s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/src/turtlesim_project_cpp'
+[1.053s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp -- -j4 -l4
+[34.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp' returned '0': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp -- -j4 -l4
+[34.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp
+[34.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_project_cpp)
+[34.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp' returned '0': CMAKE_PREFIX_PATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_bringup:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_cpp_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_interfaces/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/my_py_pkg:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/build/turtlesim_project_cpp
+[34.708s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp' for CMake module files
+[34.710s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp' for CMake config files
+[34.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_project_cpp', 'cmake_prefix_path')
+[34.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/hook/cmake_prefix_path.ps1'
+[34.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/hook/cmake_prefix_path.dsv'
+[34.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/hook/cmake_prefix_path.sh'
+[34.715s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib'
+[34.716s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/bin'
+[34.716s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/pkgconfig/turtlesim_project_cpp.pc'
+[34.716s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/python3.12/site-packages'
+[34.717s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/bin'
+[34.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.ps1'
+[34.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.dsv'
+[34.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.sh'
+[34.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.bash'
+[34.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.zsh'
+[34.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/colcon-core/packages/turtlesim_project_cpp)
+[34.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_project_cpp)
+[34.729s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp' for CMake module files
+[34.731s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp' for CMake config files
+[34.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_project_cpp', 'cmake_prefix_path')
+[34.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/hook/cmake_prefix_path.ps1'
+[34.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/hook/cmake_prefix_path.dsv'
+[34.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/hook/cmake_prefix_path.sh'
+[34.736s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib'
+[34.736s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/bin'
+[34.737s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/pkgconfig/turtlesim_project_cpp.pc'
+[34.737s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/lib/python3.12/site-packages'
+[34.738s] Level 1:colcon.colcon_core.environment:checking '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/bin'
+[34.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.ps1'
+[34.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.dsv'
+[34.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.sh'
+[34.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.bash'
+[34.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/turtlesim_project_cpp/package.zsh'
+[34.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp/share/colcon-core/packages/turtlesim_project_cpp)
+[34.745s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.746s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.746s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.746s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.761s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.816s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/local_setup.ps1'
+[34.820s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/_local_setup_util_ps1.py'
+[34.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/setup.ps1'
+[34.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/local_setup.sh'
+[34.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/_local_setup_util_sh.py'
+[34.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/setup.sh'
+[34.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/local_setup.bash'
+[34.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/setup.bash'
+[34.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/local_setup.zsh'
+[34.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/setup.zsh'
