@@ -4,9 +4,6 @@
 #include "std_msgs/msg/string.hpp"
 #include "turtlesim/msg/pose.hpp"
 
-// ToDo:
-// When turtle is in theta close to 0.0 it cannot decide which way should he turn
-
 class TurtleControllerNode : public rclcpp::Node
 {
 public:
@@ -37,33 +34,27 @@ public:
 
                 double xVec = __spawnedTurtles[0].pose.x - position.x;
                 double yVec = __spawnedTurtles[0].pose.y - position.y;
-                double angle = std::atan2(yVec, xVec);
-
-                RCLCPP_INFO(this->get_logger(), "angle: %f", angle);
-                RCLCPP_INFO(this->get_logger(), "theta: %f", position.theta);    
+                double angle = std::atan2(yVec, xVec);                 
                 
                 double oppositeThetaAngle = __calcOppositeAngle(position.theta);
 
                 if(abs(position.theta - angle) < ANGLES_ALIGNMENT)
                 {
                     // Move forward
-                    cmdVel.linear.x = FORWARD_SPEED;
-                    RCLCPP_INFO(this->get_logger(), "forward speed");
+                    cmdVel.linear.x = FORWARD_SPEED;                    
                 }
                 else if((angle > position.theta && (position.theta >= 0 || angle < oppositeThetaAngle))
-                    || (angle < position.theta && angle < oppositeThetaAngle))
+                    || (angle < position.theta && position.theta >= 0 && angle < oppositeThetaAngle))
                 {
                     // Turn left (anticlockwise)
                     cmdVel.angular.z = TURNING_LEFT_SPEED;
-                    cmdVel.linear.x = FORWARD_TURNING_SPEED;
-                    RCLCPP_INFO(this->get_logger(), "turning left");   
+                    cmdVel.linear.x = FORWARD_TURNING_SPEED;                
                 }  
                 else
                 {
                     // Turn right (clockwise)
                     cmdVel.angular.z = TURNING_RIGHT_SPEED;
-                    cmdVel.linear.x = FORWARD_TURNING_SPEED;
-                    RCLCPP_INFO(this->get_logger(), "turning right");
+                    cmdVel.linear.x = FORWARD_TURNING_SPEED;                    
                 }                                
                                 
                 __publisherVelocity->publish(cmdVel);
@@ -102,7 +93,7 @@ private:
 
     double __calcOppositeAngle(double angle)
     {
-        if(angle > 0)
+        if(angle >= 0)
         {
             return angle - PI;
         }
