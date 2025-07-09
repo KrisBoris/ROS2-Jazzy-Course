@@ -1,0 +1,17 @@
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup//launch/turtlesim_project_cpp.launch.xml
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup//config/turtlesim_project_cpp.yaml
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/ament_index/resource_index/package_run_dependencies/turtlesim_project_cpp_bringup
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/ament_index/resource_index/parent_prefix_path/turtlesim_project_cpp_bringup
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/environment/ament_prefix_path.sh
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/environment/ament_prefix_path.dsv
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/environment/path.sh
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/environment/path.dsv
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/local_setup.bash
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/local_setup.sh
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/local_setup.zsh
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/local_setup.dsv
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/package.dsv
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/ament_index/resource_index/packages/turtlesim_project_cpp_bringup
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/cmake/turtlesim_project_cpp_bringupConfig.cmake
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/cmake/turtlesim_project_cpp_bringupConfig-version.cmake
+/home/k/Main/Studying/GitHub-Repositories/ROS2-Jazzy-Course/ros2_ws/install/turtlesim_project_cpp_bringup/share/turtlesim_project_cpp_bringup/package.xml
